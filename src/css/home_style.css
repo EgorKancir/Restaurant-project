@@ -69,3 +69,138 @@ ul{
 }
 
 /* header */
+
+/* chapter1 */
+
+.restaurant-home-box-1{
+    display: flex;
+    justify-content: center;
+    width: 1680px;
+}
+
+.information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hashtag{
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+    gap: 40px;
+    height: 32px;
+    margin-top: 264px;
+}
+
+.hashtag-elements{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.72px;
+}
+
+.hastag-text{
+    margin: 0;
+}
+
+.content{
+    margin-top: 103.5px;
+    margin-right: 180px;
+    margin-left: 158px;
+}
+
+.restaurant-home-box-1-text-1{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.title{
+    color:#DCCA87;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117px;
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+    width: 455px;
+    margin: 0;
+}
+
+.restaurant-home-box-1-svg{
+    margin: 8px 0;
+}
+
+.restaurant-home-box-1-text-2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    width: 455px;
+    margin: 32px 0;
+}
+
+.restaurant-home-link{
+    color: #0C0B08;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    background-color: #DCCA87;
+    padding: 8px 32px;
+}
+
+.content-img{
+    box-shadow: 124px -125px 0px -100px #DCCA87, -124px 125px 0px -100px #DCCA87;
+    margin-right: 67px;
+}
+
+.restaurant-home-box-2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.decoration-list-1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 721px;
+}
+
+.decoration-list-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.decoration-list-1-elements{
+    color: #F5EFDB;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+}
+
+.decoration-list-2-elements-text{
+    color: #DCCA87;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+
+/* chapter1 */
