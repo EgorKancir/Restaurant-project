@@ -13,3 +13,60 @@
     background-repeat: no-repeat, no-repeat;
     background-position: top 1111px left 0px, top 1111px right 0px;
 }
+
+/* header */
+
+.container{
+    width: 1740px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #050505;
+    color: #fff;
+}
+
+.logo-link{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1.76px;
+    text-transform: uppercase;
+}
+
+.header-menu{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.64px;
+    line-height: 28px;
+}   
+
+.function-menu{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    text-transform: capitalize; 
+    gap: 50px;
+}
+
+/* header */
