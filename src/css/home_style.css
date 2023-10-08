@@ -17,7 +17,7 @@
 /* header */
 
 .container{
-    width: 1740px;
+    width: 1680px;
     margin: 0 auto;
 }
 
@@ -34,7 +34,6 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #050505;
     color: #fff;
 }
 
