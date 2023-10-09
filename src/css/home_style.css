@@ -16,11 +16,6 @@
 
 /* header */
 
-.header{
-    padding: 32px 120px;
-    margin-bottom: 48px;
-}
-
 .container{
     width: 1700px;
     margin: 0 auto;
@@ -33,11 +28,17 @@ a{
 
 ul{
     list-style: none;
+    padding: 0;
+}
+
+.header{
+    padding: 32px;
+    margin-bottom: 48px;
 }
 
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: #fff;
 }
@@ -77,6 +78,10 @@ ul{
 
 /* chapter1 */
 
+.chapter1{
+    margin-bottom: 147px;
+}
+
 .restaurant-home-box-1{
     display: flex;
     justify-content: center;
@@ -113,7 +118,7 @@ ul{
 .content{
     margin-top: 103.5px;
     margin-right: 180px;
-    margin-left: 158px;
+    margin-left: 100px;
 }
 
 .restaurant-home-box-1-text-1{
@@ -167,7 +172,6 @@ ul{
 
 .content-img{
     box-shadow: 124px -125px 0px -100px #DCCA87, -124px 125px 0px -100px #DCCA87;
-    margin-right: 67px;
 }
 
 .restaurant-home-box-2{
@@ -211,3 +215,64 @@ ul{
 }
 
 /* chapter1 */
+
+/* chapter2 */
+
+.chapter2{
+    background-image: url(/src/image/img/chapter2/bg-image.jpg);
+    background-position: cover;
+    height: 959px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.chapter2-subtitle{
+    color: #DCCA87;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.chapter2-text{
+    color: #AAA;
+    font-family: 'Open Sans', sans-serif;
+    width: 523px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    padding: 32px 0;
+    margin: 0;
+}
+
+.chapter2-link{
+    color:#0C0C0C;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    padding: 8px 32px;
+    background-color: #DCCA87;
+}
+
+.about-list{
+    text-align: right;
+}
+
+.knife-img{
+    margin: 0 96px 0 74px;
+    width: 84px;
+    height: 703px;
+    flex-shrink: 0;
+}
