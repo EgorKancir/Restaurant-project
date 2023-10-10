@@ -219,58 +219,152 @@ ul{
 .chapter2{
     background-image: url(/src/image/img/chapter2/bg-image.jpg);
     background-position: cover;
-    height: 959px;
+    height: 671,3px;
+    margin-bottom: 109.9px;
 }
 
-.about{
+.Restaurant-history{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 84px;
+    padding-bottom: 95.2px;
 }
 
 .chapter2-subtitle{
     color: #DCCA87;
     font-family: 'Cormorant Upright', serif;
-    font-size: 64px;
+    font-size: 44.8px;
     font-weight: 600;
-    line-height: 83.2px;
-    letter-spacing: 1.92px;
+    line-height: 58.24px;
+    letter-spacing: 1.344px;
     text-transform: capitalize;
-    padding-bottom: 8px;
+    padding-bottom: 5.6px;
     margin: 0;
 }
 
 .chapter2-text{
     color: #AAA;
     font-family: 'Open Sans', sans-serif;
-    width: 523px;
-    font-size: 16px;
+    width: 366.1px;
+    font-size: 11.2px;
     font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.64px;
-    padding: 32px 0;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    padding: 22.4px 0;
     margin: 0;
 }
 
 .chapter2-link{
     color:#0C0C0C;
     font-family: 'Cormorant Upright', serif;
-    font-size: 16px;
+    font-size: 11.2px;
     font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.64px;
-    padding: 8px 32px;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    padding: 5.6px 22.4px;
     background-color: #DCCA87;
 }
 
-.about-list{
+.Restaurant-history-list-1{
     text-align: right;
 }
 
 .knife-img{
-    margin: 0 96px 0 74px;
-    width: 84px;
-    height: 703px;
+    margin: 0 67.2px 0 51.8px;
+    width: 58.8px;
+    height: 492.1px;
     flex-shrink: 0;
 }
+
+/* chapter2 */
+
+/* chapter3 */
+
+.reservation{
+    margin: 0 auto;
+    width: 964.8px;
+    height: 326.2px;
+    display: flex;
+    padding: 33.6px 22.4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.7px solid rgba(220, 202, 135, 0.20);
+    background: #0C0C0C;
+    box-shadow: 15.4px 21px 66.5px 0.7px rgba(0, 0, 0, 0.70);
+    gap: 44.8px;
+}
+
+.reservation-info-list{
+    text-align: center;
+    gap: 5.6px;
+    margin: 48px 0 64px 0;
+}
+
+.reservation-info-list{
+    margin: 0;
+}
+
+.reservation-info-text{
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 16.1px;
+    font-weight: 700;
+    line-height: 20.93px;
+    letter-spacing: 0.644px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.reservation-info-title{
+    color: #DCCA87;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 44.8px;
+    font-weight: 600;
+    line-height: 58.24px;
+    letter-spacing: 1.344px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.reservation-select-list{
+    display: flex;
+    align-items: center;
+    gap: 22.4px;
+    margin: 0;
+}
+
+.select{
+    width: 288.4px;
+    height: 42px;
+    color: #AAA;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+    background: #0C0C0C;
+    text-align: left;
+    border: 0.7px solid #F5EFDB;
+}
+
+.reservation-link{
+    color: #0C0C0C;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    padding: 5.6px 22.4px;
+    border: 0.7px solid #DCCA87;
+    background:#DCCA87;
+}
+
+/* chapter3 */
