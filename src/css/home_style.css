@@ -12,7 +12,8 @@
 /* header */
 
 .container{
-    width: 1700px;
+    width: 1200px;
+    padding: 0 5px;
     margin: 0 auto;
 }
 
@@ -27,8 +28,8 @@ ul{
 }
 
 .header{
-    padding: 32px;
-    margin-bottom: 48px;
+    padding: 22.4px;
+    margin-bottom: 33.6px;
 }
 
 .nav{
@@ -40,9 +41,9 @@ ul{
 
 .logo-link{
     font-family: 'Cormorant Upright', serif;
-    font-size: 44px;
+    font-size: 30.8px;
     font-weight: 700;
-    letter-spacing: 1.76px;
+    letter-spacing: 1.232px;
     text-transform: uppercase;
 }
 
@@ -50,23 +51,23 @@ ul{
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
-    gap: 32px;
-    font-size: 16px;
+    gap: 22.4px;
+    font-size: 11.2px;
     font-weight: 400;
-    letter-spacing: 0.64px;
-    line-height: 28px;
+    letter-spacing: 0.448px;
+    line-height: 19.6px;
 }   
 
 .function-menu{
     display: flex;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 11.2px;
     font-weight: 600;
-    line-height: 28px;
-    letter-spacing: 0.8px;
+    line-height: 19.6px;
+    letter-spacing: 0.56px;
     text-transform: capitalize; 
-    gap: 50px;
+    gap: 39.2px;
 }
 
 /* header */
@@ -74,13 +75,14 @@ ul{
 /* chapter1 */
 
 .chapter1{
-    margin-bottom: 147px;
+    margin: 0 auto;
+    margin-bottom: 102.9px;
 }
 
 .restaurant-home-box-1{
     display: flex;
     justify-content: center;
-    width: 1680px;
+    width: 1207px;
 }
 
 .information{
@@ -93,17 +95,17 @@ ul{
     align-items: center;
     transform: rotate(-90deg);
     gap: 40px;
-    height: 32px;
-    margin-top: 264px;
+    height: 28px;
+    margin-top: 184.8px;
 }
 
 .hashtag-elements{
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 12.6px;
     font-weight: 400;
-    line-height: 31.5px;
-    letter-spacing: 0.72px;
+    line-height: 22.05px;
+    letter-spacing: 0.504px;
 }
 
 .hastag-text{
@@ -111,18 +113,18 @@ ul{
 }
 
 .content{
-    margin-top: 103.5px;
-    margin-right: 180px;
-    margin-left: 100px;
+    margin-top: 72.45px;
+    margin-right: 126px;
+    margin-left: 70px;
 }
 
 .restaurant-home-box-1-text-1{
     color: #FFF;
     font-family: 'Cormorant Upright', serif;
-    font-size: 23px;
+    font-size: 16.1px;
     font-weight: 700;
-    line-height: 29.9px;
-    letter-spacing: 0.92px;
+    line-height: 20.93px;
+    letter-spacing: 0.644px;
     text-transform: capitalize;
     margin: 0;
 }
@@ -130,43 +132,44 @@ ul{
 .title{
     color:#DCCA87;
     font-family: 'Cormorant Upright', serif;
-    font-size: 90px;
+    font-size: 63px;
     font-weight: 700;
-    line-height: 117px;
-    letter-spacing: 3.6px;
+    line-height: 81.9px;
+    letter-spacing: 2.73px;
     text-transform: capitalize;
-    width: 455px;
+    width: 320px;
     margin: 0;
 }
 
 .restaurant-home-box-1-svg{
-    margin: 8px 0;
+    margin: 5.6px 0;
 }
 
 .restaurant-home-box-1-text-2{
     color: #AAA;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 11.2px;
     font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.64px;
-    width: 455px;
-    margin: 32px 0;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    width: 318.5px;
+    margin: 22.4px 0;
 }
 
 .restaurant-home-link{
     color: #0C0B08;
     font-family: 'Cormorant Upright', serif;
-    font-size: 16px;
+    font-size: 11.2px;
     font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.64px;
+    line-height: 19,6px;
+    letter-spacing: 0.448px;
     background-color: #DCCA87;
-    padding: 8px 32px;
+    padding: 5.6px 22.4px;
 }
 
 .content-img{
-    box-shadow: 124px -125px 0px -100px #DCCA87, -124px 125px 0px -100px #DCCA87;
+    box-shadow: 86.8px -87.5px 0px -70px #DCCA87, -86.8px 87.5px 0px -70px #DCCA87;
+    width: 433.3px;
 }
 
 .restaurant-home-box-2{
@@ -178,8 +181,8 @@ ul{
 .decoration-list-1{
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-right: 721px;
+    gap: 5.6px;
+    margin-right: 504.7px;
 }
 
 .decoration-list-2{
@@ -192,20 +195,20 @@ ul{
     color: #F5EFDB;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright', serif;
-    font-size: 16px;
+    font-size: 11.2px;
     font-weight: 600;
-    line-height: 28px;
-    letter-spacing: 0.64px;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
     text-transform: capitalize;
 }
 
 .decoration-list-2-elements-text{
     color: #DCCA87;
     font-family: 'Cormorant Upright', serif;
-    font-size: 16px;
+    font-size: 11.2px;
     font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.64px;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
     text-transform: uppercase;
 }
 
