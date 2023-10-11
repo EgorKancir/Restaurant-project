@@ -24,7 +24,6 @@ ul{
 h1, h2, h3, h4, h5, h6, li, menu{
     margin: 0;
     padding: 0;
-
 }
 :root{
     --FFFFFF: #FFF;
@@ -32,46 +31,47 @@ h1, h2, h3, h4, h5, h6, li, menu{
     --FAFAFA: #FAFAFA;
     --AAAAAA: #AAA;
 }
-/* header */
+/* header BEM */
 .header{
-    padding: 22.4px;
+    padding: 22.4px 84px;
     margin-bottom: 33.6px;
+    color: var(--FFFFFF);
 }
-.nav{
+.header__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
 }
-.logo-link{
-    font-family: 'Cormorant Upright', serif;
-    font-size: 30.8px;
-    font-weight: 700;
-    letter-spacing: 1.232px;
-    text-transform: uppercase;
+.box-logo__link__img{
+    width: 139.3px;
+    height: 39.9px;
 }
-.header-menu{
-    font-family: 'Open Sans', sans-serif;
+.header__menu__list{
     display: flex;
     align-items: center;
     gap: 22.4px;
-    font-size: 11.2px;
-    font-weight: 400;
-    letter-spacing: 0.448px;
-    line-height: 19.6px;
-}   
-.function-menu{
+}
+.header__box-login{
     display: flex;
     align-items: center;
+    gap: 35px;
+}
+.menu__link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+}
+.box-logo__link{
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.56px;
-    text-transform: capitalize; 
-    gap: 39.2px;
+    text-transform: capitalize;
 }
-/* header */
+/* header BEM */
 /* chapter1 */
 .chapter1{
     margin: 0 auto;
