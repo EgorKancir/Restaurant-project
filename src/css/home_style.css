@@ -333,12 +333,15 @@ h1, h2, h3, h4, h5, h6, li, menu{
 /*Місце для секції Олександри*/
 
 /*Місце для секції Олександри*/
-/*menu_special style start*/
-.menu_special {
+/*menu-special style start*/
+.menu-special {
     margin: 0 auto;
     height: 891.8px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.box_todays_special {
+.menu-special__content-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -346,14 +349,14 @@ h1, h2, h3, h4, h5, h6, li, menu{
     gap: 44.8px; 
     margin: 0 auto;
 }
-.textbox_todays_special {
+.menu-special__text-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5.6px;
 }
-.h4_textbox_todays_special {
+.menu-special__title-top {
     color: var(--FFFFFF, #FFF); 
     font-family: Cormorant Upright;
     font-size: 16.1px; 
@@ -363,10 +366,10 @@ h1, h2, h3, h4, h5, h6, li, menu{
     letter-spacing: 0.644px; 
     text-transform: capitalize;
 }
-.svg_spoon_menu_special{
+.menu-special__svg-image {
     fill: var(--DCCA87, #DCCA87);
 }
-.h2_textbox_todays_special {
+.menu-special__title {
     color: var(--DCCA87, #DCCA87);
     text-align: center;
     font-family: Cormorant Upright;
@@ -377,20 +380,20 @@ h1, h2, h3, h4, h5, h6, li, menu{
     letter-spacing: 1.792px;
     text-transform: capitalize;
 }
-.menu_box_special {
+.menu-special__main-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 22.4px;
 }
-.first_list_menu_special {
+.menu-special__left-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 33.6px;
 }
-.h3_list_menu_special {
+.menu-special__title-column {
     color: var(--FFFFFF, #FFF);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
@@ -402,25 +405,25 @@ h1, h2, h3, h4, h5, h6, li, menu{
     letter-spacing: 1.26px; 
     text-transform: capitalize;
 }
-.menu_list_menu_special {
+.menu-special__menu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 28px; 
 }
-.element_menu_list_special {
+.menu-special__product-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 5.6px;
 }
-.text_elemetn_menu_list {
+.menu-special__product-information {
     display: flex;
     align-items: center;
     gap: 22.4px; 
 }
-.h4_text_elemetn_list {
+.menu-special__product-name {
     width: 192px;
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -432,12 +435,12 @@ h1, h2, h3, h4, h5, h6, li, menu{
     letter-spacing: 0.644px; 
     text-transform: capitalize;
 }
-.hr_li_menu_special {
+.menu-special__product-line {
     width: 83.3px; 
     height: 0.7px; 
     background: var(--FAFAFA, #FAFAFA);
 }
-.h4_menu_price {
+.menu-special__product-price {
     color: var(--FFFFFF, #FFF);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
@@ -449,7 +452,7 @@ h1, h2, h3, h4, h5, h6, li, menu{
     letter-spacing: 0.644px; 
     text-transform: capitalize;
 }
-.p_text_element_list {
+.menu-special__product-characteristics {
     color: var(--AAAAAA, #AAA);
     text-align: center;
     font-family: Open Sans;
@@ -459,21 +462,21 @@ h1, h2, h3, h4, h5, h6, li, menu{
     line-height: 19.6px; 
     letter-spacing: 0.448px; 
 }
-.img_soft_shell_menu_special {
+.menu-special__main-image {
     width: 310px; 
     height: 461.3px; 
     flex-shrink: 0;
     background: url(../image/img/chapter5/soft_shell.jpg), no-repeat;
     background-size: contain;
 }
-.second_list_menu_special {
+.menu-special__right-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 33.6px;
 }
-.box_button_menu_special {
+.menu-special__button {
     display: flex;
     box-sizing: border-box;
     padding: 5.6px 22.4px;
@@ -481,11 +484,6 @@ h1, h2, h3, h4, h5, h6, li, menu{
     justify-content: center;
     align-items: center;
     background: var(--DCCA87, #DCCA87);
-}
-.box_button_menu_special:hover{
-    box-shadow: 0px 0px 20px 7px #DCCA87;
-}
-.h4_button_menu_special {
     color: var(--0C0C0C, #0C0C0C);
     font-family: Cormorant Upright;
     font-size: 11.2px;
@@ -494,4 +492,7 @@ h1, h2, h3, h4, h5, h6, li, menu{
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-/*menu_special style end*/
+.menu-special__button:hover{
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+/*menu-special style end*/
