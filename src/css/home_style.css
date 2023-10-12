@@ -330,9 +330,45 @@ h1, h2, h3, h4, h5, h6, li, menu{
     background:#DCCA87;
 }
 /* chapter3 */
-/*Місце для секції Олександри*/
+/* Olexandra */
+.menubox {
+    background-image: url("../image/img/chapter4/glass.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+  background-position: center;
+}
 
-/*Місце для секції Олександри*/
+
+.menubox_links-item {
+    color:var(--FFFFFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.menubox_links-item:hover{
+    text-decoration-line: underline;
+}
+
+.menubox_links {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 293px;
+    padding-bottom: 262px;
+}
+
+.menubox-img {
+    padding-top: 15px;
+}
+
+/* Olexandra */
 /*menu-special style start*/
 .menu-special {
     margin: 0 auto;
