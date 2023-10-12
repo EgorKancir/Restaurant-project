@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, li, menu{
 /* chapter1 */
 /* chapter2 */
 .chapter2{
-    background-image: url(/src/image/img/chapter2/bg-image.jpg);
+    background-image: url(../image/img/chapter2/bg-image.jpg);
     background-position: cover;
     height: 671,3px;
     margin-bottom: 109.9px;
@@ -333,9 +333,9 @@ h1, h2, h3, h4, h5, h6, li, menu{
 /* Olexandra */
 .menubox {
     background-image: url("../image/img/chapter4/glass.jpg");
-   background-size:cover;
-   background-repeat: no-repeat;
-  background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
