@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, li, menu{
     width: 139.3px;
     height: 39.9px;
 }
-.header__menu__list{
+.header-menu__list{
     display: flex;
     align-items: center;
     gap: 22.4px;
