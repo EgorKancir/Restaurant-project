@@ -535,13 +535,14 @@ h1, h2, h3, h4, h5, h6, li, menu{
 /* 7 8 секція Олександри початок*/
 
 /*7 8 секція Олександри кінець */
-/* restaurant-video start */
+/*9  sectio Egor start */
 .restaurant-video {
     margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 .restaurant-video__content-box {
     padding: 0;
@@ -551,4 +552,163 @@ h1, h2, h3, h4, h5, h6, li, menu{
     height: 534.1px;
     flex-shrink: 0;
 }
-/* restaurant-video end */
+/*9  section Egor end */
+/*10 section Olexandra start */
+
+/*10 section Olexandra end */
+/* 11 section Egor start */
+.restaurant-blog {
+    height: 971.6px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-image: url(../image/svg/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 102.2px 102.2px;
+    background-position: right 64px bottom 86.1px;
+}
+.restaurant-blog__content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44.8px;
+}
+.restaurant-blog__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.6px;
+}
+.restaurant-blog__title-top {
+    color: var(--FFFFFF, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 16.1px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20.93px;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+.restaurant-blog__svg-image {
+    fill: var(--DCCA87, #DCCA87);
+}
+.restaurant-blog__title {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 44.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58.24px;
+    letter-spacing: 1.344px;
+    text-transform: capitalize;
+}
+.restaurant-blog__main-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 22.4px;
+}
+.restaurant-blog__article-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16.8px;
+}
+.restaurant-blog__article-img {
+    width: 288.4px;
+    height: 301px;
+    flex-shrink: 0;
+}
+.restaurant-blog__article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22.4px;
+}
+.restaurant-blog__top-box-text {
+    width: 288.4px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.restaurant-blog__date {
+    color: var(--FAFAFA, #FAFAFA);
+    font-family: Open Sans;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px; 
+    letter-spacing: 0.448px;
+}
+.restaurant-blog__author {
+    color: var(--FAFAFA, #FAFAFA);
+    font-family: Open Sans;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+
+}
+.restaurant-blog__link-title {
+    width: 288.4px;
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 22.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.12px;
+    letter-spacing: 0.896px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.restaurant-blog__link-title:hover {
+    text-decoration-line: underline;
+}
+.restaurant-blog__article-paragraf {
+    width: 288.4px;
+    color: var(--AAAAAA, #AAA);
+    font-family: Open Sans;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px; 
+    letter-spacing: 0.448px;
+}
+.restaurant-blog__article-link {
+    color: var(--DCCA87, #DCCA87);
+    font-family: Cormorant Upright;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+}
+.restaurant-blog__article-link:hover{
+    font-size: 12px;
+}
+.restaurant-blog__button {
+    display: flex;
+    padding: 5.6px 22.4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--DCCA87, #DCCA87);
+    color: var(--0C0C0C, #0C0C0C);
+    font-family: Cormorant Upright;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+}
+.restaurant-blog__button:hover {
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+/* 11 section Egor end */
+
+
