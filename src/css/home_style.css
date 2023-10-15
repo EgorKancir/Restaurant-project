@@ -8,6 +8,19 @@
     margin: 0;
     padding: 0;
 }
+
+/* root */
+
+:root{
+    --FFFFFF: #FFF;
+    --DCCA87: #DCCA87;
+    --FAFAFA: #FAFAFA;
+    --AAAAAA: #AAA;
+    --0C0C0C:#0c0c0c;
+    --F5EFDB: #F5EFDB;
+}
+
+/* root */
 .container{
     width: 1200px;
     padding: 0 5px;
@@ -20,16 +33,11 @@ a{
 ul{
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 h1, h2, h3, h4, h5, h6, li, menu{
     margin: 0;
     padding: 0;
-}
-:root{
-    --FFFFFF: #FFF;
-    --DCCA87: #DCCA87;
-    --FAFAFA: #FAFAFA;
-    --AAAAAA: #AAA;
 }
 /* header BEM */
 .header{
@@ -72,47 +80,32 @@ h1, h2, h3, h4, h5, h6, li, menu{
     text-transform: capitalize;
 }
 /* header BEM */
-/* chapter1 */
-.chapter1{
-    margin: 0 auto;
-    margin-bottom: 102.9px;
-}
-.restaurant-home-box-1{
-    display: flex;
-    justify-content: center;
-    width: 1207px;
-}
-.information{
-    display: flex;
-    justify-content: space-around;
-}
-.hashtag{
+/* chapter1 BEM */
+.restauran-home-box-main{
     display: flex;
     align-items: center;
+    gap: 110.6px;
+    color: #FFF;
+    font-family: 'Cormorant Upright', serif;  
+}
+.hashtag-box{
     transform: rotate(-90deg);
-    gap: 40px;
-    height: 28px;
-    margin-top: 184.8px;
+    display: flex;
 }
-.hashtag-elements{
-    color: #FFF;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12.6px;
-    font-weight: 400;
-    line-height: 22.05px;
-    letter-spacing: 0.504px;
+.hashtag-box__list{
+    display: flex;
+    align-items: center;
+    gap: 28px;
 }
-.hastag-text{
-    margin: 0;
+
+.information-box{
+    margin-top: 89.25px;
+    width: 318.5px;
+    color: var(--FFFFFF);
 }
-.content{
-    margin-top: 72.45px;
-    margin-right: 126px;
-    margin-left: 70px;
-}
-.restaurant-home-box-1-text-1{
-    color: #FFF;
-    font-family: 'Cormorant Upright', serif;
+.information-box__subtitle{
+    color: var(--FFFFFF);
+    font-variant-numeric: lining-nums tabular-nums;
     font-size: 16.1px;
     font-weight: 700;
     line-height: 20.93px;
@@ -120,97 +113,89 @@ h1, h2, h3, h4, h5, h6, li, menu{
     text-transform: capitalize;
     margin: 0;
 }
-.title{
-    color:#DCCA87;
-    font-family: 'Cormorant Upright', serif;
+.information-box__svg{
+    margin: 5.6px 0;
+}
+.information-box__title{
+    color: var(--DCCA87);
     font-size: 63px;
     font-weight: 700;
     line-height: 81.9px;
-    letter-spacing: 2.73px;
+    letter-spacing: 2.52px;
     text-transform: capitalize;
-    width: 320px;
-    margin: 0;
 }
-.restaurant-home-box-1-svg{
-    margin: 5.6px 0;
-}
-.restaurant-home-box-1-text-2{
-    color: #AAA;
+.information-box__text{
+    color: var(--AAAAAA);
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
     font-weight: 400;
-    line-height: 19.6px;
+    line-height: 19.6px; 
     letter-spacing: 0.448px;
-    width: 318.5px;
     margin: 22.4px 0;
 }
-.restaurant-home-link{
-    color: #0C0B08;
-    font-family: 'Cormorant Upright', serif;
-    font-size: 11.2px;
-    font-weight: 700;
-    line-height: 19,6px;
-    letter-spacing: 0.448px;
-    background-color: #DCCA87;
+.information-box__link{
+    background-color: var(--DCCA87);
     padding: 5.6px 22.4px;
+    color: var(--0C0C0C);
 }
-.content-img{
-    box-shadow: 86.8px -87.5px 0px -70px #DCCA87, -86.8px 87.5px 0px -70px #DCCA87;
+
+.image-box__image{
     width: 433.3px;
+    box-shadow: 86.8px -87.5px 0px -70px #DCCA87, -86.8px 87.5px 0px -70px #DCCA87;
 }
-.restaurant-home-box-2{
+
+.inscriptions-box{
     display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: flex-end;
+    gap: 504.7px;
+    color: #FFF;
+    font-family: 'Cormorant Upright', serif;  
 }
-.decoration-list-1{
-    display: flex;
-    align-items: center;
-    gap: 5.6px;
-    margin-right: 504.7px;
-}
-.decoration-list-2{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.decoration-list-1-elements{
-    color: #F5EFDB;
+.inscriptions-box__text{
+    color: var(--F5EFDB);
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: 'Cormorant Upright', serif;
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
 }
-.decoration-list-2-elements-text{
-    color: #DCCA87;
-    font-family: 'Cormorant Upright', serif;
+.inscriptions-box__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inscriptions-box__item__text{
+    color: var(--DCCA87);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: uppercase;
 }
-/* chapter1 */
-/* chapter2 */
+.inscriptions-box__svg{
+    width: 42.7px;
+}
+/* chapter1 BEM */
+/* chapter2 BEM */
 .chapter2{
     background-image: url(../image/img/chapter2/bg-image.jpg);
     background-position: cover;
-    height: 671,3px;
-    margin-bottom: 109.9px;
 }
-.Restaurant-history{
+.restaurant-information-box{
+    font-family: 'Cormorant Upright', serif;  
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 84px;
-    padding-bottom: 95.2px;
+    gap: 51.8px;
+    margin: 84px 0;
 }
-.chapter2-subtitle{
-    color: #DCCA87;
-    font-family: 'Cormorant Upright', serif;
+.about-restaurant-box{
+    text-align: right;
+}
+.restaurant-information-box__title{
+    color: var(--DCCA87);
     font-size: 44.8px;
     font-weight: 600;
     line-height: 58.24px;
@@ -219,39 +204,33 @@ h1, h2, h3, h4, h5, h6, li, menu{
     padding-bottom: 5.6px;
     margin: 0;
 }
-.chapter2-text{
-    color: #AAA;
+.restaurant-information-box__text{
+    color: var(--AAAAAA);
     font-family: 'Open Sans', sans-serif;
-    width: 366.1px;
     font-size: 11.2px;
     font-weight: 400;
     line-height: 19.6px;
     letter-spacing: 0.448px;
-    padding: 22.4px 0;
     margin: 0;
+    padding: 22.4px 0;
 }
-.chapter2-link{
-    color:#0C0C0C;
-    font-family: 'Cormorant Upright', serif;
+.restaurant-information-box__link{
+    color: var(--0C0C0C);
     font-size: 11.2px;
+    font-style: normal;
     font-weight: 700;
     line-height: 19.6px;
     letter-spacing: 0.448px;
-    padding: 5.6px 22.4px;
-    background-color: #DCCA87;
+    background-color: var(--DCCA87);
+    padding: 8px 32px;
 }
-.Restaurant-history-list-1{
-    text-align: right;
-}
-.knife-img{
-    margin: 0 67.2px 0 51.8px;
+.restaurant-information-box__decoradion-image{
     width: 58.8px;
-    height: 492.1px;
-    flex-shrink: 0;
+    margin: 84px;
 }
-/* chapter2 */
-/* chapter3 */
-.reservation{
+/* chapter2 BEM */
+/* chapter3 BEM */
+.reservation-box{
     margin: 0 auto;
     width: 964.8px;
     height: 326.2px;
@@ -261,22 +240,18 @@ h1, h2, h3, h4, h5, h6, li, menu{
     justify-content: center;
     align-items: center;
     border: 0.7px solid rgba(220, 202, 135, 0.20);
-    background: #0C0C0C;
+    background: var(--0C0C0C);
     box-shadow: 15.4px 21px 66.5px 0.7px rgba(0, 0, 0, 0.70);
     gap: 44.8px;
+    font-family: 'Cormorant Upright', serif;
 }
-.reservation-info-list{
+.reservation-info-box{
     text-align: center;
     gap: 5.6px;
-    margin: 48px 0 64px 0;
 }
-.reservation-info-list{
-    margin: 0;
-}
-.reservation-info-text{
-    color: #FFF;
+.reservation-info-box__subtitle{
+    color: var(--FFFFFF);
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: 'Cormorant Upright', serif;
     font-size: 16.1px;
     font-weight: 700;
     line-height: 20.93px;
@@ -284,11 +259,10 @@ h1, h2, h3, h4, h5, h6, li, menu{
     text-transform: capitalize;
     margin: 0;
 }
-.reservation-info-title{
+.reservation-info-box__title{
     color: #DCCA87;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: 'Cormorant Upright', serif;
     font-size: 44.8px;
     font-weight: 600;
     line-height: 58.24px;
@@ -296,31 +270,30 @@ h1, h2, h3, h4, h5, h6, li, menu{
     text-transform: capitalize;
     margin: 0;
 }
-.reservation-select-list{
+.reservation-select-box__list{
     display: flex;
     align-items: center;
     gap: 22.4px;
     margin: 0;
 }
-.select{
+.reservation-select-box__select{
+    padding: 11.2px;
     width: 288.4px;
     height: 42px;
-    color: #AAA;
+    color: var(--AAAAAA);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: 'Cormorant Upright', serif;
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background: #0C0C0C;
+    background: var(--0C0C0C);
     text-align: left;
     border: 0.7px solid #F5EFDB;
 }
-.reservation-link{
-    color: #0C0C0C;
-    font-family: 'Cormorant Upright', serif;
+.reservation__link{
+    color: var(--0C0C0C);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
@@ -329,7 +302,7 @@ h1, h2, h3, h4, h5, h6, li, menu{
     border: 0.7px solid #DCCA87;
     background:#DCCA87;
 }
-/* chapter3 */
+/* chapter3 BEM */
 /* Olexandra */
 .menubox {
     background-image: url("../image/img/chapter4/glass.jpg");
