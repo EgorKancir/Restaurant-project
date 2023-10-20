@@ -1,17 +1,17 @@
-.body{
+.body {
     background-color: #0C0B08;
     background-image: url(../image/svg/line_left.svg), url(../image/svg/line_right.svg);
-    background-size: 1607.905px 10983px, 1607.905px 10983px;
+    background-size: 1125.5335px 7688.1px, 1125.5335px 7688.1px;
     background-repeat: no-repeat, no-repeat;
-    background-position: top 1111px left 0px, top 1111px right 0px;
-    height: 12093px;
+    background-position: top 777.7px left 0px, top 777.7px right 0px;
+    height: 8465.1px;
     margin: 0;
     padding: 0;
 }
 
 /* root */
 
-:root{
+:root {
     --FFFFFF: #FFF;
     --DCCA87: #DCCA87;
     --FAFAFA: #FAFAFA;
@@ -21,21 +21,21 @@
 }
 
 /* root */
-.container{
+.container {
     width: 1200px;
     padding: 0 5px;
     margin: 0 auto;
 }
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
-ul{
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, li, menu{
+h1, h2, h3, h4, h5, h6, li, menu {
     margin: 0;
     padding: 0;
 }
@@ -683,5 +683,157 @@ h1, h2, h3, h4, h5, h6, li, menu{
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
 /* 11 section Egor end */
+/* 12 section Egor start */
+.photo-gallery {
+    margin: 0 auto;
+    padding: 0;
+    height: 572.6px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    position: relative;
+    z-index: 1;
+}
+.photo-gallery::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../image/svg/logo.svg"), url("../image/img/slider/BG-slider_sq.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 104.3px 104.3px, auto 493.5px;
+    background-position: 74.2px 452.2px, top;
+    opacity: 0.5;
+    z-index: 2;
+}
+.photo-gallery__content-box {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 44.8px;
+    height: 493.5px;
+    margin: 0 ;
+    z-index: 3;
+}
+.photo-gallery__text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16.8px;
+}
+.photo-gallery__title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5.6px;
+}
+.photo-gallery__title-top {
+    color: var(--FFFFFF, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 16.1px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20.3px;
+    letter-spacing: 0.644px;
+    text-transform: capitalize;
+}
+.photo-gallery__svg-image {
+    fill: var(--DCCA87, #DCCA87);
+}
+.photo-gallery__title {
+    color: var(--DCCA87, #DCCA87);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 44.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58.24px;
+    letter-spacing: 1.344px;
+    text-transform: capitalize;
+}
+.photo-gallery__paragraf {
+    width: 343.7px;
+    color: var(--AAAAAA, #AAA);
+    font-family: Open Sans;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px; 
+    letter-spacing: 0.448px;
+}
+.photo-gallery__button {
+    display: flex;
+    padding: 5.6px 22.4px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border: 0.7px solid var(--DCCA87, #DCCA87);
+    background: var(--DCCA87, #DCCA87);
+    color: var(--0C0C0C, #0C0C0C);
+    font-family: Cormorant Upright;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.6px; 
+    letter-spacing: 0.448px;
+}
+.photo-gallery__button:hover {
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.photo-gallery__overflow {
+    width: 738.5px;
+    height: 330px;
+    overflow: auto;
+    z-index: 3;
+}
+.photo-gallery__overflow::-webkit-scrollbar {
+    width: 24px;
+    height: 10px; 
+    background-color: #adbbca;
+}
+.photo-gallery__overflow::-webkit-scrollbar-thumb {
+    background-color: #68726f;
+    border-radius: 9px;
+}
+.photo-gallery__overflow::-webkit-scrollbar-thumb:hover {
+    background-color: #DCCA87;
+}
+.photo-gallery__box-imeges {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 22.4px;
+}
+.photo-gallery__img {
+    width: 210.7px;
+    height: 312.9px;
+    border: 0.7px solid var(--DCCA87, #DCCA87);
+    z-index: auto;
+}
+.photo-gallery__link-img {
+    width: 210.7px;
+    height: 312.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.photo-gallery__link-img:hover::before {
+    content: "";
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    border: 1.4px solid rgba(220, 202, 135, 0.20);
+    background-image: url("../image/svg/instagram_logo.svg"), linear-gradient(208deg, rgba(0, 0, 0, 0.75) 1.5%, rgba(0, 0, 0, 0.64) 98.62%);
+    background-size: 36.4px 36.4px, contain;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    z-index: 2; 
+}
+/* 12 section Egor end */
 
 
