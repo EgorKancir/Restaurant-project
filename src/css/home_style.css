@@ -187,6 +187,9 @@ h1, h2, h3, h4, h5, h6, li, menu {
     justify-content: center;
     gap: 51.8px;
     margin: 84px 0;
+    background-image: url(../image/svg/G.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .about-restaurant-box{
     text-align: right;
