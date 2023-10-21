@@ -227,7 +227,8 @@ h1, h2, h3, h4, h5, h6, li, menu {
 }
 /* chapter2 BEM */
 /* chapter3 BEM */
-.reservation-box{
+.reservation-box,.email-box{
+    text-align: center;
     margin: 0 auto;
     width: 964.8px;
     height: 326.2px;
@@ -241,12 +242,13 @@ h1, h2, h3, h4, h5, h6, li, menu {
     box-shadow: 15.4px 21px 66.5px 0.7px rgba(0, 0, 0, 0.70);
     gap: 44.8px;
     font-family: 'Cormorant Upright', serif;
+    margin-bottom: 108.5px;
 }
 .reservation-info-box{
     text-align: center;
     gap: 5.6px;
 }
-.reservation-info-box__subtitle{
+.reservation-info-box__subtitle,.email-info-box__subtitle{
     color: var(--FFFFFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 16.1px;
@@ -256,7 +258,7 @@ h1, h2, h3, h4, h5, h6, li, menu {
     text-transform: capitalize;
     margin: 0;
 }
-.reservation-info-box__title{
+.reservation-info-box__title,.email-info-box__title{
     color: #DCCA87;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
@@ -289,7 +291,7 @@ h1, h2, h3, h4, h5, h6, li, menu {
     text-align: left;
     border: 0.7px solid #F5EFDB;
 }
-.reservation__link{
+.reservation__link,.email-input-box__link{
     color: var(--0C0C0C);
     font-size: 11.2px;
     font-weight: 700;
@@ -298,6 +300,46 @@ h1, h2, h3, h4, h5, h6, li, menu {
     padding: 5.6px 22.4px;
     border: 0.7px solid #DCCA87;
     background:#DCCA87;
+}
+
+
+.email-info-box__svg{
+    margin: 5.6px 0;
+    padding: 0;
+}
+.email-info-box__text{
+    color: var(--FFFFFF);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    margin: 0;
+    margin-top: 24px;
+}
+.email-input-box__input{
+    width: 557.2px;
+    height: 42px;
+    margin-right: 22.4px;
+    color: var(--AAAAAA);
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+    background-color: var(--0C0C0C);
+    border: 0.7px solid var(--F5EFDB);
+    padding: 11.2px 13.3px;
+}
+.footer__inscriptions-box__list{
+    text-align: right;
+}
+.email-box{
+    margin-bottom: -45px;
+}
+.email-section{
+    margin-bottom: 55.3px;
 }
 /* chapter3 BEM */
 /* Olexandra */
@@ -832,5 +874,147 @@ h1, h2, h3, h4, h5, h6, li, menu {
     z-index: 2; 
 }
 /* 12 section Egor end */
+/* footer */
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 100.8px;
+}
+.footer-information-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-contact-box{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-contact-box__subtitle{
+    color: var(--F5EFDB);
+    font-family: 'Cormorant Upright', serif;  
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.86px;
+    text-transform: capitalize;
+    margin-bottom: 16.8px;
+}
+.footer-information-box__address-content{
+    color: var(--AAAAAA);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.45px;
+    margin: 0;
+}
+.footer-contact-box__link{
+    color: var(--AAAAAA);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.45px;
+}
+.footer-contact-box__link:first-child{
+    margin: 5px;
+}
+.footer-box-logo__link__img{
+    margin-bottom: 22px;
+    width: 202.3px;
+}
+.social-media-box{
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+}
+.social-media-box__text{
+    color: var(--FFFFFF);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.45px;
+    margin: 0;
+}
+.social-media-box__svg{
+    margin: 11px 0;
+}
+.social-media-box__icons-item{
+    fill: #FFF;
+}
+.social-media-box__icons-list{
+    display: flex;
+    gap: 11px;
+}
+.working-hours-box{
+    font-family: 'Cormorant Upright', serif;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.working-hours-box__title{
+    color: var(--F5EFDB);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+.working-hours-box__text{
+    width: 121px;
+    margin: 0;
+}
+.working-hours-box__text:first-child{
+    margin-bottom: 5px;
+}
+.footer-date-box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-date-box__text{
+    margin: 0;
+    color: var(--AAAAAA);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.45px;
+    padding-left: 53px;
+}
+.footer{
+    background-image: url(../image/img/footer/bg-image.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 585.9px;
+}
+/* footer */
+
+/* over hover */
+.email-input-box__link:hover{
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.reservation__link:hover{
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.information-box__link:hover{
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.restaurant-information-box__link:hover{
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.reservation__link:hover{
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.social-media-box__icons-item:hover{
+fill: var(--DCCA87);
+}
+
 
 
