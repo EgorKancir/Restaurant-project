@@ -32,7 +32,7 @@ ul {
     padding: 0;
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, li, menu {
+h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
     padding: 0;
 }
@@ -743,7 +743,7 @@ h1, h2, h3, h4, h5, h6, li, menu {
     position: absolute;
     background-image: url("../image/svg/logo.svg"), url("../image/img/slider/BG-slider_sq.jpg");
     background-repeat: no-repeat, no-repeat;
-    background-size: 104.3px 104.3px, auto 493.5px;
+    background-size: 104.3px 104.3px, 100% 493.5px;
     background-position: 74.2px 452.2px, top;
     opacity: 0.5;
     z-index: 2;
