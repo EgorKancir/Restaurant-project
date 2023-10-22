@@ -293,6 +293,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background: var(--0C0C0C);
     text-align: left;
     border: 0.7px solid #F5EFDB;
+    cursor: pointer;
 }
 .reservation__link,.email-input-box__link{
     color: var(--0C0C0C);
@@ -337,6 +338,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .footer__inscriptions-box__list{
     text-align: right;
+    font-family: 'Cormorant Upright', serif;
 }
 .email-box{
     margin-bottom: -45px;
@@ -1016,8 +1018,17 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
 .social-media-box__icons-item:hover{
-fill: var(--DCCA87);
+    fill: var(--DCCA87);
 }
-
-
-
+.menu__link:hover{
+    color: var(--DCCA87);
+}
+.box-login__link:hover{
+    color: var(--DCCA87);
+}
+.footer-contact-box__link:hover{
+    color: var(--DCCA87);
+}
+.footer-information-box__address-content:hover{
+    color: var(--DCCA87);
+}
