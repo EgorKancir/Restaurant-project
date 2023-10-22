@@ -194,6 +194,77 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 .email-section{
     margin-bottom: 55.3px;
 }
+.email-info-box__svg{
+    margin: 5.6px 0;
+    padding: 0;
+}
+.email-info-box__text{
+    color: var(--FFFFFF);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    margin: 0;
+    margin-top: 24px;
+}
+.email-input-box__input{
+    width: 557.2px;
+    height: 42px;
+    margin-right: 22.4px;
+    color: var(--AAAAAA);
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+    background-color: var(--0C0C0C);
+    border: 0.7px solid var(--F5EFDB);
+    padding: 11.2px 13.3px;
+}
+.footer__inscriptions-box__list{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-box{
+    margin-bottom: -45px;
+}
+.email-section{
+    margin-bottom: 55.3px;
+}
+.email-inscriptions{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 504.7px;
+    color: #FFF;
+    font-family: 'Cormorant Upright', serif; 
+    text-align: right;
+}
+.inscriptions-box__text{
+    color: var(--F5EFDB);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+}
+.inscriptions-box__item__text{
+    color: var(--DCCA87);
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: uppercase;
+}
+.inscriptions-box__svg{
+    width: 42.7px;
+}
+/* chapter3 BEM */
 /* 4 секція Єгор початок */
 .we-offer {
     margin: 0 auto;
@@ -480,77 +551,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
 /* 7 секція Єгор кінець */
-.email-info-box__svg{
-    margin: 5.6px 0;
-    padding: 0;
-}
-.email-info-box__text{
-    color: var(--FFFFFF);
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11.2px;
-    font-weight: 400;
-    line-height: 19.6px;
-    letter-spacing: 0.448px;
-    margin: 0;
-    margin-top: 24px;
-}
-.email-input-box__input{
-    width: 557.2px;
-    height: 42px;
-    margin-right: 22.4px;
-    color: var(--AAAAAA);
-    font-size: 11.2px;
-    font-weight: 600;
-    line-height: 19.6px;
-    letter-spacing: 0.448px;
-    text-transform: capitalize;
-    background-color: var(--0C0C0C);
-    border: 0.7px solid var(--F5EFDB);
-    padding: 11.2px 13.3px;
-}
-.footer__inscriptions-box__list{
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.email-box{
-    margin-bottom: -45px;
-}
-.email-section{
-    margin-bottom: 55.3px;
-}
-.email-inscriptions{
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-    gap: 504.7px;
-    color: #FFF;
-    font-family: 'Cormorant Upright', serif; 
-    text-align: right;
-}
-.inscriptions-box__text{
-    color: var(--F5EFDB);
-    font-variant-numeric: lining-nums tabular-nums;
-    font-size: 11.2px;
-    font-weight: 600;
-    line-height: 19.6px;
-    letter-spacing: 0.448px;
-    text-transform: capitalize;
-}
-.inscriptions-box__item__text{
-    color: var(--DCCA87);
-    font-size: 11.2px;
-    font-weight: 700;
-    line-height: 19.6px;
-    letter-spacing: 0.448px;
-    text-transform: uppercase;
-}
-.inscriptions-box__svg{
-    width: 42.7px;
-}
-/* chapter3 BEM */
 /* footer */
 .footer-box{
     display: flex;
