@@ -8,67 +8,87 @@
     margin: 0;
     padding: 0;
 }
+
 /* root */
 :root {
     --FFFFFF: #FFF;
     --DCCA87: #DCCA87;
     --FAFAFA: #FAFAFA;
     --AAAAAA: #AAA;
-    --0C0C0C:#0c0c0c;
+    --0C0C0C: #0c0c0c;
     --F5EFDB: #F5EFDB;
 }
+
 /* root */
 .container {
     width: 1200px;
     padding: 0 5px;
     margin: 0 auto;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, li, menu, p {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+menu,
+p {
     margin: 0;
     padding: 0;
 }
+
 /* header BEM */
-.header{
+.header {
     padding: 22.4px 84px;
     margin-bottom: 33.6px;
     color: var(--FFFFFF);
 }
-.header__inner{
+
+.header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.box-logo__link__img{
+
+.box-logo__link__img {
     width: 139.3px;
     height: 39.9px;
 }
-.header-menu__list{
+
+.header-menu__list {
     display: flex;
     align-items: center;
     gap: 22.4px;
 }
-.header__box-login{
+
+.header__box-login {
     display: flex;
     align-items: center;
     gap: 35px;
 }
-.menu__link{
+
+.menu__link {
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
     font-weight: 400;
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-.box-logo__link{
+
+.box-logo__link {
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
     font-weight: 600;
@@ -76,9 +96,94 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.56px;
     text-transform: capitalize;
 }
+
 /* header BEM */
+/* 2 секція Олександри */
+.rocks {
+    height: 730px;
+    background-image: url("../images/img/chapter2/scroll.png"), url("../images/img/chapter2/bar.png"), url("../images/img/chapter2/bg-image.jpg");
+    background-size: auto, 443px 550px, cover;
+    background-repeat: no-repeat;
+    background-position: 650px 590px, center, center;
+    padding-top: 60px;
+}
+
+.rocks_box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.rocks_box-hashtag-text {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.72px;
+    transform: rotate(-90deg);
+}
+
+
+.rocks_box-title-text {
+    color: var(--FFFFFF, #FFF);
+    font-family: 'Cormorant Upright';
+    font-size: 126px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 9.05px;
+    text-transform: capitalize;
+}
+
+.rocks_box-numbers-text {
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+}
+
+.rocks_box-numbers-line {
+    color: #DCCA87;
+}
+
+
+.rocks_box-hashtag {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 400px;
+}
+
+.rocks_box-numbers {
+    display: inline-flex;
+    transform: rotate(90deg);
+    justify-content: center;
+    align-items: end;
+    gap: 8px;
+    margin-top: 500px;
+}
+
+.rocks_box-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 2 секція Олександри */
 /* chapter3 BEM */
-.reservation-box,.email-box{
+.reservation-box,
+.email-box {
     text-align: center;
     margin: 0 auto;
     width: 964.8px;
@@ -95,11 +200,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-family: 'Cormorant Upright', serif;
     margin-bottom: 108.5px;
 }
-.reservation-info-box{
+
+.reservation-info-box {
     text-align: center;
     gap: 5.6px;
 }
-.reservation-info-box__subtitle,.email-info-box__subtitle{
+
+.reservation-info-box__subtitle,
+.email-info-box__subtitle {
     color: var(--FFFFFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 16.1px;
@@ -109,7 +217,9 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     margin: 0;
 }
-.reservation-info-box__title,.email-info-box__title{
+
+.reservation-info-box__title,
+.email-info-box__title {
     color: #DCCA87;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
@@ -120,13 +230,15 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     margin: 0;
 }
-.reservation-select-box__list{
+
+.reservation-select-box__list {
     display: flex;
     align-items: center;
     gap: 22.4px;
     margin: 0;
 }
-.reservation-select-box__select{
+
+.reservation-select-box__select {
     padding: 11.2px;
     width: 288.4px;
     height: 42px;
@@ -143,7 +255,9 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid #F5EFDB;
     cursor: pointer;
 }
-.reservation__link,.email-input-box__link{
+
+.reservation__link,
+.email-input-box__link {
     color: var(--0C0C0C);
     font-size: 11.2px;
     font-weight: 700;
@@ -151,15 +265,16 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.448px;
     padding: 5.6px 22.4px;
     border: 0.7px solid #DCCA87;
-    background:#DCCA87;
+    background: #DCCA87;
 }
 
 
-.email-info-box__svg{
+.email-info-box__svg {
     margin: 5.6px 0;
     padding: 0;
 }
-.email-info-box__text{
+
+.email-info-box__text {
     color: var(--FFFFFF);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -170,7 +285,8 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
     margin-top: 24px;
 }
-.email-input-box__input{
+
+.email-input-box__input {
     width: 557.2px;
     height: 42px;
     margin-right: 22.4px;
@@ -184,21 +300,26 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid var(--F5EFDB);
     padding: 11.2px 13.3px;
 }
-.footer__inscriptions-box__list{
+
+.footer__inscriptions-box__list {
     text-align: right;
     font-family: 'Cormorant Upright', serif;
 }
-.email-box{
+
+.email-box {
     margin-bottom: -45px;
 }
-.email-section{
+
+.email-section {
     margin-bottom: 55.3px;
 }
-.email-info-box__svg{
+
+.email-info-box__svg {
     margin: 5.6px 0;
     padding: 0;
 }
-.email-info-box__text{
+
+.email-info-box__text {
     color: var(--FFFFFF);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -209,7 +330,8 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
     margin-top: 24px;
 }
-.email-input-box__input{
+
+.email-input-box__input {
     width: 557.2px;
     height: 42px;
     margin-right: 22.4px;
@@ -223,28 +345,33 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid var(--F5EFDB);
     padding: 11.2px 13.3px;
 }
-.footer__inscriptions-box__list{
+
+.footer__inscriptions-box__list {
     text-align: right;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.email-box{
+
+.email-box {
     margin-bottom: -45px;
 }
-.email-section{
+
+.email-section {
     margin-bottom: 55.3px;
 }
-.email-inscriptions{
+
+.email-inscriptions {
     display: flex;
     justify-content: end;
     align-items: flex-end;
     gap: 504.7px;
     color: #FFF;
-    font-family: 'Cormorant Upright', serif; 
+    font-family: 'Cormorant Upright', serif;
     text-align: right;
 }
-.inscriptions-box__text{
+
+.inscriptions-box__text {
     color: var(--F5EFDB);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 11.2px;
@@ -253,7 +380,8 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.448px;
     text-transform: capitalize;
 }
-.inscriptions-box__item__text{
+
+.inscriptions-box__item__text {
     color: var(--DCCA87);
     font-size: 11.2px;
     font-weight: 700;
@@ -261,9 +389,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.448px;
     text-transform: uppercase;
 }
-.inscriptions-box__svg{
+
+.inscriptions-box__svg {
     width: 42.7px;
 }
+
 /* chapter3 BEM */
 /* 4 секція Єгор початок */
 .we-offer {
@@ -278,6 +408,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-size: 102.2px 102.2px, 100% 731.5px;
     background-position: top 2.1px left 102.2px, top;
 }
+
 .we-offer__content-box {
     width: 910px;
     height: 586.6px;
@@ -287,6 +418,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     flex-shrink: 0;
 }
+
 .we-offer__first-img {
     height: 100%;
     width: 366.1px;
@@ -295,6 +427,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-size: contain;
     background-position: bottom;
 }
+
 .we-offer__grop {
     width: 443.8px;
     height: 100%;
@@ -302,6 +435,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     flex-direction: column;
     gap: 28px;
 }
+
 .we-offer__second-img {
     width: 443.8px;
     height: 269.5px;
@@ -310,12 +444,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .we-offer__text-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 22.4px;
 }
+
 .we-offer__title-box {
     display: flex;
     flex-direction: column;
@@ -323,6 +459,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: flex-start;
     gap: 5.6px;
 }
+
 .we-offer__title-top {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -334,9 +471,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.644px;
     text-transform: capitalize;
 }
+
 .we-offer__svg-image {
     fill: var(--DCCA87, #DCCA87);
 }
+
 .we-offer__title {
     width: 429.8px;
     color: var(--DCCA87, #DCCA87);
@@ -349,6 +488,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 1.344px;
     text-transform: capitalize;
 }
+
 .we-offer__paragraf {
     width: 366.1px;
     color: var(--AAAAAA, #AAA);
@@ -356,9 +496,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-size: 11.2px;
     font-style: normal;
     font-weight: 400;
-    line-height: 19.6px; 
+    line-height: 19.6px;
     letter-spacing: 0.448px;
 }
+
 .we-offer__button {
     display: flex;
     padding: 5.6px 22.4px;
@@ -374,20 +515,228 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
+
 .we-offer__button:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
+
 /* 4 секція Єгор кінець */
 /* 5 секція початок */
+.drinks {
+    padding-top: 140px;
+    padding-bottom: 105px;
+}
+
+.drinks_box-title-text {
+    color: var(--FFFFFF, #FFF);
+    font-family: 'Cormorant Upright';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+.drinks_box-title-item {
+    color: var(--DCCA87, #DCCA87);
+    text-align: center;
+    font-family: 'Cormorant Upright';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 2.56px;
+    text-transform: capitalize;
+}
+
+
+
+.drinks_box-images-item {
+    width: 287px;
+    height: 420px;
+    flex-shrink: 0;
+    border: 1px solid var(--DCCA87, #DCCA87);
+    z-index: auto;
+
+}
+
+.drinks_box-images-link-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.drinks_box-images-link-one:hover::before {
+    content: "Beer";
+    color: var(--FFFFFF, #FFF);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1.4px solid rgba(220, 202, 135, 0.20);
+    background-image: linear-gradient(208deg, rgba(0, 0, 0, 0.75) 1.5%, rgba(0, 0, 0, 0.64) 98.62%);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.drinks_box-images-link-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.drinks_box-images-link-two:hover::before {
+    content: "Wine";
+    color: var(--FFFFFF, #FFF);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1.4px solid rgba(220, 202, 135, 0.20);
+    background-image: linear-gradient(208deg, rgba(0, 0, 0, 0.75) 1.5%, rgba(0, 0, 0, 0.64) 98.62%);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.drinks_box-images-link-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.drinks_box-images-link-three:hover::before {
+    content: "Cocktails";
+    color: var(--FFFFFF, #FFF);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1.4px solid rgba(220, 202, 135, 0.20);
+    background-image: linear-gradient(208deg, rgba(0, 0, 0, 0.75) 1.5%, rgba(0, 0, 0, 0.64) 98.62%);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.drinks_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.drinks_box-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.drinks_box-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
 
 /* 5 секція кінець */
 /* 6 секція початок */
+.hours {
+    background-image: url("../images/img/chapter6/bg-img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 231px;
+    padding-bottom: 231px;
+}
+
+.hours_box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.hours_box-text-title {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 89px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 3.84px;
+    text-transform: capitalize;
+}
+
+.hours_box-text-item {
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
 
 /* 6 секція кінець */
 /* 7 секція Єгор початок */
 .menu-special {
     margin: 0 auto;
-    height: 891.8px; 
+    height: 891.8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -396,14 +745,16 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-size: 102.2px 102.2px, 102.2px 102.2px;
     background-position: top 65.8px right 94px, bottom 0px left 20px;
 }
+
 .menu-special__content-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 44.8px; 
+    gap: 44.8px;
     margin: 0 auto;
 }
+
 .menu-special__text-box {
     display: flex;
     flex-direction: column;
@@ -411,36 +762,41 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     gap: 5.6px;
 }
+
 .menu-special__title-top {
-    color: var(--FFFFFF, #FFF); 
+    color: var(--FFFFFF, #FFF);
     font-family: Cormorant Upright;
-    font-size: 16.1px; 
+    font-size: 16.1px;
     font-style: normal;
     font-weight: 700;
-    line-height: 20.93px; 
-    letter-spacing: 0.644px; 
+    line-height: 20.93px;
+    letter-spacing: 0.644px;
     text-transform: capitalize;
 }
+
 .menu-special__svg-image {
     fill: var(--DCCA87, #DCCA87);
 }
+
 .menu-special__title {
     color: var(--DCCA87, #DCCA87);
     text-align: center;
     font-family: Cormorant Upright;
-    font-size: 44.8px; 
+    font-size: 44.8px;
     font-style: normal;
     font-weight: 600;
-    line-height: 58.24px; 
+    line-height: 58.24px;
     letter-spacing: 1.792px;
     text-transform: capitalize;
 }
+
 .menu-special__main-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 22.4px;
 }
+
 .menu-special__left-column {
     display: flex;
     flex-direction: column;
@@ -448,24 +804,27 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     gap: 33.6px;
 }
+
 .menu-special__title-column {
     color: var(--FFFFFF, #FFF);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
-    font-size: 31.5px; 
+    font-size: 31.5px;
     font-style: normal;
     font-weight: 600;
     line-height: 40.95px;
-    letter-spacing: 1.26px; 
+    letter-spacing: 1.26px;
     text-transform: capitalize;
 }
+
 .menu-special__menu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 28px; 
+    gap: 28px;
 }
+
 .menu-special__product-section {
     display: flex;
     flex-direction: column;
@@ -473,57 +832,64 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: flex-start;
     gap: 5.6px;
 }
+
 .menu-special__product-information {
     display: flex;
     align-items: center;
-    gap: 22.4px; 
+    gap: 22.4px;
 }
+
 .menu-special__product-name {
     width: 192px;
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
-    font-size: 16.1px; 
+    font-size: 16.1px;
     font-style: normal;
     font-weight: 700;
-    line-height: 20.93px; 
-    letter-spacing: 0.644px; 
+    line-height: 20.93px;
+    letter-spacing: 0.644px;
     text-transform: capitalize;
 }
+
 .menu-special__product-line {
-    width: 83.3px; 
-    height: 0.7px; 
+    width: 83.3px;
+    height: 0.7px;
     background: var(--FAFAFA, #FAFAFA);
 }
+
 .menu-special__product-price {
     color: var(--FFFFFF, #FFF);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
-    font-size: 16.1px; 
+    font-size: 16.1px;
     font-style: normal;
     font-weight: 700;
-    line-height: 20.93px; 
-    letter-spacing: 0.644px; 
+    line-height: 20.93px;
+    letter-spacing: 0.644px;
     text-transform: capitalize;
 }
+
 .menu-special__product-characteristics {
     color: var(--AAAAAA, #AAA);
     text-align: center;
     font-family: Open Sans;
-    font-size: 11.2px; 
+    font-size: 11.2px;
     font-style: normal;
     font-weight: 400;
-    line-height: 19.6px; 
-    letter-spacing: 0.448px; 
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
 }
+
 .menu-special__main-image {
-    width: 310px; 
-    height: 461.3px; 
+    width: 310px;
+    height: 461.3px;
     flex-shrink: 0;
     background: url("../images/img/chapter7/soft_shell.jpg"), no-repeat;
     background-size: contain;
 }
+
 .menu-special__right-column {
     display: flex;
     flex-direction: column;
@@ -531,6 +897,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     gap: 33.6px;
 }
+
 .menu-special__button {
     display: flex;
     box-sizing: border-box;
@@ -547,9 +914,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-.menu-special__button:hover{
+
+.menu-special__button:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
+
 /* 7 секція Єгор кінець */
 /* 8 секція Єгор початок */
 .work-schedule {
@@ -564,6 +933,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-size: 102.2px 102.2px, 100% 694.4px;
     background-position: bottom 0px right 147px, top;
 }
+
 .work-schedule__content-box {
     width: 910px;
     height: 515.2px;
@@ -573,6 +943,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     gap: 84px;
 }
+
 .work-schedule__text-box {
     display: flex;
     flex-direction: column;
@@ -580,6 +951,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: flex-start;
     gap: 44.8px;
 }
+
 .work-schedule__title-box {
     display: flex;
     flex-direction: column;
@@ -587,6 +959,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: flex-start;
     gap: 5.6px;
 }
+
 .work-schedule__title-top {
     color: var(--FFFFFF, #FFF);
     font-family: Cormorant Upright;
@@ -597,9 +970,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.644px;
     text-transform: capitalize;
 }
+
 .work-schedule__svg-image {
     fill: var(--DCCA87, #DCCA87);
 }
+
 .work-schedule__title {
     color: var(--DCCA87, #DCCA87);
     text-align: center;
@@ -611,12 +986,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 1.792px;
     text-transform: capitalize;
 }
+
 .work-schedule__paragraf-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 22.4px;
 }
+
 .work-schedule__paragraf {
     width: 359.1px;
     color: var(--AAAAAA, #AAA);
@@ -627,12 +1004,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
+
 .work-schedule__schedule-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 11.2px;
 }
+
 .work-schedule__title-schedule {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -640,10 +1019,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-size: 16.1px;
     font-style: normal;
     font-weight: 700;
-    line-height: 20.93px; 
+    line-height: 20.93px;
     letter-spacing: 0.644px;
     text-transform: capitalize;
 }
+
 .work-schedule__schedule-paragraf {
     color: var(--FFFFFF, #FFF);
     font-family: Open Sans;
@@ -653,6 +1033,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
+
 .work-schedule__button {
     display: flex;
     padding: 5.6px 22.4px;
@@ -665,12 +1046,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-size: 11.2px;
     font-style: normal;
     font-weight: 700;
-    line-height: 19.6px; 
+    line-height: 19.6px;
     letter-spacing: 0.448px;
 }
+
 .work-schedule__button:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
+
 .work-schedule__img-box {
     display: flex;
     justify-content: center;
@@ -679,6 +1062,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     height: 515.2px;
     position: relative;
 }
+
 .work-schedule__square1 {
     width: 304.5px;
     height: 304.5px;
@@ -687,6 +1071,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     top: 0px;
     right: 0px;
 }
+
 .work-schedule__square2 {
     width: 304.5px;
     height: 304.5px;
@@ -695,6 +1080,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     bottom: 0px;
     left: 0px;
 }
+
 .work-schedule__img {
     background-image: url("../images/img/chapter8/lemon-cocktail_sq.jpg");
     background-repeat: no-repeat;
@@ -704,9 +1090,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     flex-shrink: 0;
     position: relative;
 }
+
 /* 8 секція Єгор кінець */
 /* footer */
-.footer-box{
+.footer-box {
     display: flex;
     flex-direction: column;
     gap: 44px;
@@ -714,19 +1101,22 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-align: center;
     padding-bottom: 100.8px;
 }
-.footer-information-box{
+
+.footer-information-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer-contact-box{
+
+.footer-contact-box {
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
 }
-.footer-contact-box__subtitle{
+
+.footer-contact-box__subtitle {
     color: var(--F5EFDB);
-    font-family: 'Cormorant Upright', serif;  
+    font-family: 'Cormorant Upright', serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 29px;
@@ -734,7 +1124,8 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     margin-bottom: 16.8px;
 }
-.footer-information-box__address-content{
+
+.footer-information-box__address-content {
     color: var(--AAAAAA);
     font-size: 11px;
     font-weight: 400;
@@ -742,28 +1133,33 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.45px;
     margin: 0;
 }
-.footer-contact-box__link{
+
+.footer-contact-box__link {
     color: var(--AAAAAA);
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0.45px;
 }
-.footer-contact-box__link:first-child{
+
+.footer-contact-box__link:first-child {
     margin: 5px;
 }
-.footer-box-logo__link__img{
+
+.footer-box-logo__link__img {
     margin-bottom: 22px;
     width: 202.3px;
 }
-.social-media-box{
+
+.social-media-box {
     width: 306px;
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     align-items: center;
 }
-.social-media-box__text{
+
+.social-media-box__text {
     color: var(--FFFFFF);
     font-size: 11px;
     font-weight: 400;
@@ -771,23 +1167,28 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.45px;
     margin: 0;
 }
-.social-media-box__svg{
+
+.social-media-box__svg {
     margin: 11px 0;
 }
-.social-media-box__icons-item{
+
+.social-media-box__icons-item {
     fill: #FFF;
 }
-.social-media-box__icons-list{
+
+.social-media-box__icons-list {
     display: flex;
     gap: 11px;
 }
-.working-hours-box{
-    font-family: 'Cormorant Upright', serif;  
+
+.working-hours-box {
+    font-family: 'Cormorant Upright', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.working-hours-box__title{
+
+.working-hours-box__title {
     color: var(--F5EFDB);
     font-size: 22px;
     font-weight: 400;
@@ -796,18 +1197,22 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     margin-bottom: 17px;
 }
-.working-hours-box__text{
+
+.working-hours-box__text {
     width: 121px;
     margin: 0;
 }
-.working-hours-box__text:first-child{
+
+.working-hours-box__text:first-child {
     margin-bottom: 5px;
 }
-.footer-date-box{
+
+.footer-date-box {
     display: flex;
     flex-direction: column;
 }
-.footer-date-box__text{
+
+.footer-date-box__text {
     margin: 0;
     color: var(--AAAAAA);
     text-align: center;
@@ -818,31 +1223,39 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.45px;
     padding-left: 53px;
 }
-.footer{
+
+.footer {
     background-image: url(../images/img/footer/bg-image.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100% 585.9px;
 }
+
 /* footer */
 
 /* over hover */
-.email-input-box__link:hover{
+.email-input-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-.reservation__link:hover{
+
+.reservation__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-.information-box__link:hover{
+
+.information-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-.restaurant-information-box__link:hover{
+
+.restaurant-information-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-.reservation__link:hover{
+
+.reservation__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-.social-media-box__icons-item:hover{
-fill: var(--DCCA87);
+
+.social-media-box__icons-item:hover {
+    fill: var(--DCCA87);
 }
+
 /* кінець */
