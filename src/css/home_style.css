@@ -403,11 +403,12 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 42.7px;
 }
 .menubox {
-    background-image: url("../image/img/chapter4/glass.jpg");
-    background-size: cover;
+    background-image: url("../image/svg/logo.svg"), url("../image/img/chapter4/glass.jpg");
+    background-size: 102px 102px ,  cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 80px 10px, center;
     height: 630px;
+    padding-top: 182px;
     padding-bottom: 183px;
 }
 .menubox_links-item {
