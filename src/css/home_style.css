@@ -8,8 +8,6 @@
     margin: 0;
     padding: 0;
 }
-
-/* root */
 :root {
     --FFFFFF: #FFF;
     --DCCA87: #DCCA87;
@@ -18,68 +16,48 @@
     --0C0C0C: #0c0c0c;
     --F5EFDB: #F5EFDB;
 }
-
-/* root */
 .container {
     width: 1200px;
     padding: 0 5px;
     margin: 0 auto;
 }
-
 a {
     text-decoration: none;
     color: inherit;
 }
-
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-li,
-menu,
-p {
+h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
     padding: 0;
 }
-
-/* header BEM */
 .header {
     padding: 22.4px 84px;
     margin-bottom: 33.6px;
     color: var(--FFFFFF);
 }
-
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .box-logo__link__img {
     width: 139.3px;
     height: 39.9px;
 }
-
 .header-menu__list {
     display: flex;
     align-items: center;
     gap: 22.4px;
 }
-
 .header__box-login {
     display: flex;
     align-items: center;
     gap: 35px;
 }
-
 .menu__link {
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -87,7 +65,6 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .box-logo__link {
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -96,9 +73,6 @@ p {
     letter-spacing: 0.56px;
     text-transform: capitalize;
 }
-
-/* header BEM */
-/* chapter1 BEM */
 .restauran-home-box-main {
     display: flex;
     align-items: center;
@@ -106,24 +80,20 @@ p {
     color: #FFF;
     font-family: 'Cormorant Upright', serif;
 }
-
 .hashtag-box {
     transform: rotate(-90deg);
     display: flex;
 }
-
 .hashtag-box__list {
     display: flex;
     align-items: center;
     gap: 28px;
 }
-
 .information-box {
     margin-top: 89.25px;
     width: 318.5px;
     color: var(--FFFFFF);
 }
-
 .information-box__subtitle {
     color: var(--FFFFFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -134,11 +104,9 @@ p {
     text-transform: capitalize;
     margin: 0;
 }
-
 .information-box__svg {
     margin: 5.6px 0;
 }
-
 .information-box__title {
     color: var(--DCCA87);
     font-size: 63px;
@@ -147,7 +115,6 @@ p {
     letter-spacing: 2.52px;
     text-transform: capitalize;
 }
-
 .information-box__text {
     color: var(--AAAAAA);
     font-family: 'Open Sans', sans-serif;
@@ -157,18 +124,15 @@ p {
     letter-spacing: 0.448px;
     margin: 22.4px 0;
 }
-
 .information-box__link {
     background-color: var(--DCCA87);
     padding: 5.6px 22.4px;
     color: var(--0C0C0C);
 }
-
 .image-box__image {
     width: 433.3px;
     box-shadow: 86.8px -87.5px 0px -70px #DCCA87, -86.8px 87.5px 0px -70px #DCCA87;
 }
-
 .inscriptions-box {
     display: flex;
     justify-content: end;
@@ -177,7 +141,6 @@ p {
     color: #FFF;
     font-family: 'Cormorant Upright', serif;
 }
-
 .inscriptions-box__text {
     color: var(--F5EFDB);
     font-variant-numeric: lining-nums tabular-nums;
@@ -187,13 +150,11 @@ p {
     letter-spacing: 0.448px;
     text-transform: capitalize;
 }
-
 .inscriptions-box__list {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .inscriptions-box__item__text {
     color: var(--DCCA87);
     font-size: 11.2px;
@@ -202,18 +163,13 @@ p {
     letter-spacing: 0.448px;
     text-transform: uppercase;
 }
-
 .inscriptions-box__svg {
     width: 42.7px;
 }
-
-/* chapter1 BEM */
-/* chapter2 BEM */
 .chapter2 {
     background-image: url(../image/img/chapter2/bg-image.jpg);
     background-position: cover;
 }
-
 .restaurant-information-box {
     font-family: 'Cormorant Upright', serif;
     display: flex;
@@ -225,11 +181,9 @@ p {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .about-restaurant-box {
     text-align: right;
 }
-
 .restaurant-information-box__title {
     color: var(--DCCA87);
     font-size: 44.8px;
@@ -240,7 +194,6 @@ p {
     padding-bottom: 5.6px;
     margin: 0;
 }
-
 .restaurant-information-box__text {
     color: var(--AAAAAA);
     font-family: 'Open Sans', sans-serif;
@@ -251,7 +204,6 @@ p {
     margin: 0;
     padding: 22.4px 0;
 }
-
 .restaurant-information-box__link {
     color: var(--0C0C0C);
     font-size: 11.2px;
@@ -262,14 +214,10 @@ p {
     background-color: var(--DCCA87);
     padding: 8px 32px;
 }
-
 .restaurant-information-box__decoradion-image {
     width: 58.8px;
     margin: 84px;
 }
-
-/* chapter2 BEM */
-/* chapter3 BEM */
 .reservation-box,
 .email-box {
     text-align: center;
@@ -288,12 +236,10 @@ p {
     font-family: 'Cormorant Upright', serif;
     margin-bottom: 108.5px;
 }
-
 .reservation-info-box {
     text-align: center;
     gap: 5.6px;
 }
-
 .reservation-info-box__subtitle,
 .email-info-box__subtitle {
     color: var(--FFFFFF);
@@ -305,7 +251,6 @@ p {
     text-transform: capitalize;
     margin: 0;
 }
-
 .reservation-info-box__title,
 .email-info-box__title {
     color: #DCCA87;
@@ -318,14 +263,12 @@ p {
     text-transform: capitalize;
     margin: 0;
 }
-
 .reservation-select-box__list {
     display: flex;
     align-items: center;
     gap: 22.4px;
     margin: 0;
 }
-
 .reservation-select-box__select {
     padding: 11.2px;
     width: 288.4px;
@@ -343,7 +286,6 @@ p {
     border: 0.7px solid #F5EFDB;
     cursor: pointer;
 }
-
 .reservation__link,
 .email-input-box__link {
     color: var(--0C0C0C);
@@ -355,13 +297,10 @@ p {
     border: 0.7px solid #DCCA87;
     background: #DCCA87;
 }
-
-
 .email-info-box__svg {
     margin: 5.6px 0;
     padding: 0;
 }
-
 .email-info-box__text {
     color: var(--FFFFFF);
     text-align: center;
@@ -373,7 +312,6 @@ p {
     margin: 0;
     margin-top: 24px;
 }
-
 .email-input-box__input {
     width: 557.2px;
     height: 42px;
@@ -388,30 +326,88 @@ p {
     border: 0.7px solid var(--F5EFDB);
     padding: 11.2px 13.3px;
 }
-
-.footer__inscriptions-box__list {
-    text-align: right;
-    font-family: 'Cormorant Upright', serif;
-}
-
 .email-box {
     margin-bottom: -45px;
 }
-
 .email-section {
     margin-bottom: 55.3px;
 }
-
-/* chapter3 BEM */
-/* Olexandra */
+.email-info-box__svg {
+    margin: 5.6px 0;
+    padding: 0;
+}
+.email-info-box__text {
+    color: var(--FFFFFF);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    margin: 0;
+    margin-top: 24px;
+}
+.email-input-box__input {
+    width: 557.2px;
+    height: 42px;
+    margin-right: 22.4px;
+    color: var(--AAAAAA);
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+    background-color: var(--0C0C0C);
+    border: 0.7px solid var(--F5EFDB);
+    padding: 11.2px 13.3px;
+}
+.footer__inscriptions-box__list {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-box {
+    margin-bottom: -45px;
+}
+.email-section {
+    margin-bottom: 55.3px;
+}
+.email-inscriptions {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 504.7px;
+    color: #FFF;
+    font-family: 'Cormorant Upright', serif;
+    text-align: right;
+}
+.inscriptions-box__text {
+    color: var(--F5EFDB);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+}
+.inscriptions-box__item__text {
+    color: var(--DCCA87);
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: uppercase;
+}
+.inscriptions-box__svg {
+    width: 42.7px;
+}
 .menubox {
     background-image: url("../image/img/chapter4/glass.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
 .menubox_links-item {
     color: var(--FFFFFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -424,11 +420,9 @@ p {
     text-transform: capitalize;
     text-decoration: none;
 }
-
 .menubox_links-item:hover {
     text-decoration-line: underline;
 }
-
 .menubox_links {
     display: flex;
     flex-direction: column;
@@ -436,13 +430,9 @@ p {
     padding-top: 205px;
     padding-bottom: 183px;
 }
-
 .menubox-img {
     padding-top: 15px;
 }
-
-/* Olexandra */
-/*menu-special style start*/
 .menu-special {
     margin: 0 auto;
     height: 891.8px;
@@ -450,7 +440,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-
 .menu-special__content-box {
     display: flex;
     flex-direction: column;
@@ -459,7 +448,6 @@ p {
     gap: 44.8px;
     margin: 0 auto;
 }
-
 .menu-special__text-box {
     display: flex;
     flex-direction: column;
@@ -467,7 +455,6 @@ p {
     align-items: center;
     gap: 5.6px;
 }
-
 .menu-special__title-top {
     color: var(--FFFFFF, #FFF);
     font-family: Cormorant Upright;
@@ -478,11 +465,9 @@ p {
     letter-spacing: 0.644px;
     text-transform: capitalize;
 }
-
 .menu-special__svg-image {
     fill: var(--DCCA87, #DCCA87);
 }
-
 .menu-special__title {
     color: var(--DCCA87, #DCCA87);
     text-align: center;
@@ -494,14 +479,12 @@ p {
     letter-spacing: 1.792px;
     text-transform: capitalize;
 }
-
 .menu-special__main-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 22.4px;
 }
-
 .menu-special__left-column {
     display: flex;
     flex-direction: column;
@@ -509,7 +492,6 @@ p {
     align-items: center;
     gap: 33.6px;
 }
-
 .menu-special__title-column {
     color: var(--FFFFFF, #FFF);
     text-align: center;
@@ -522,14 +504,12 @@ p {
     letter-spacing: 1.26px;
     text-transform: capitalize;
 }
-
 .menu-special__menu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 28px;
 }
-
 .menu-special__product-section {
     display: flex;
     flex-direction: column;
@@ -537,13 +517,11 @@ p {
     align-items: flex-start;
     gap: 5.6px;
 }
-
 .menu-special__product-information {
     display: flex;
     align-items: center;
     gap: 22.4px;
 }
-
 .menu-special__product-name {
     width: 192px;
     color: var(--DCCA87, #DCCA87);
@@ -556,13 +534,11 @@ p {
     letter-spacing: 0.644px;
     text-transform: capitalize;
 }
-
 .menu-special__product-line {
     width: 83.3px;
     height: 0.7px;
     background: var(--FAFAFA, #FAFAFA);
 }
-
 .menu-special__product-price {
     color: var(--FFFFFF, #FFF);
     text-align: center;
@@ -575,7 +551,6 @@ p {
     letter-spacing: 0.644px;
     text-transform: capitalize;
 }
-
 .menu-special__product-characteristics {
     color: var(--AAAAAA, #AAA);
     text-align: center;
@@ -586,7 +561,6 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .menu-special__main-image {
     width: 310px;
     height: 461.3px;
@@ -594,7 +568,6 @@ p {
     background: url(../image/img/chapter5/soft_shell.jpg), no-repeat;
     background-size: contain;
 }
-
 .menu-special__right-column {
     display: flex;
     flex-direction: column;
@@ -602,7 +575,6 @@ p {
     align-items: center;
     gap: 33.6px;
 }
-
 .menu-special__button {
     display: flex;
     box-sizing: border-box;
@@ -619,13 +591,9 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .menu-special__button:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
-/*menu-special style end*/
-/* 7  секція Олександри початок*/
 .chef {
     background-image: url("../image/svg/logo.svg"), url("../image/img/chapter6/bg-image.jpg");
     background-size: auto, cover;
@@ -634,15 +602,11 @@ p {
     padding-top: 90px;
     padding-bottom: 90px;
 }
-
 .chef_box {
     display: inline-flex;
     align-items: center;
     gap: 64px;
 }
-
-
-
 .chef_box-right {
     display: flex;
     flex-direction: column;
@@ -650,7 +614,6 @@ p {
     gap: 44px;
 
 }
-
 .chef_box-right-title {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -662,8 +625,6 @@ p {
     letter-spacing: 0.64px;
     text-transform: capitalize;
 }
-
-
 .chef_box-right-titletwo {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -675,8 +636,6 @@ p {
     letter-spacing: 1.34px;
     text-transform: capitalize;
 }
-
-
 .chef_box-right-text {
     color: var(--AAAAAA, #AAA);
     font-family: 'Open Sans';
@@ -687,14 +646,10 @@ p {
     letter-spacing: 0.44px;
     width: 570px;
 }
-
 .chef_box-right-sign {
     width: 164px;
     height: 58px;
 }
-
-
-
 .chef_box-right-name {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -706,7 +661,6 @@ p {
     letter-spacing: 1.28px;
     text-transform: capitalize;
 }
-
 .chef_box-right-position {
     color: var(--AAAAAA, #AAA);
     font-family: 'Open Sans';
@@ -716,41 +670,30 @@ p {
     line-height: 20px;
     letter-spacing: 0.64px;
 }
-
 .chef_box-img img {
     width: 443px;
 }
-
 .chef_box-right-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
-
 .chef_box-right-mid {
     display: flex;
     gap: 6px;
 }
-
-
 .chef_box-right-name-and-position {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
 }
-
-
-
 .chef_box-right-svg {
     width: 33px;
     height: 28px;
     flex-shrink: 0;
 }
-
-/*7 секція Олександри кінець */
-/* 8  секція Олександри початок */
 .customers {
     background-image: url("../image/svg/logo.svg");
     background-size: auto;
@@ -759,8 +702,6 @@ p {
     padding-top: 106px;
     padding-bottom: 119px;
 }
-
-
 .customers_box-title_item-one {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -772,8 +713,6 @@ p {
     letter-spacing: 0.92px;
     text-transform: capitalize;
 }
-
-
 .customers_box-title_item-two {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -785,7 +724,6 @@ p {
     letter-spacing: 1.92px;
     text-transform: capitalize;
 }
-
 .customers_box-text-one {
     color: var(--AAAAAA, #AAA);
     font-family: 'Open Sans';
@@ -795,7 +733,6 @@ p {
     line-height: 19px;
     letter-spacing: 0.64px;
 }
-
 .customers_box-comments-title {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -807,7 +744,6 @@ p {
     letter-spacing: 0.28px;
     text-transform: capitalize;
 }
-
 .customers_box-text-two {
     color: var(--F5EFDB, #F5EFDB);
     font-family: 'Open Sans';
@@ -817,7 +753,6 @@ p {
     line-height: 19px;
     letter-spacing: 0.32px;
 }
-
 .customers_box {
     display: inline-flex;
     flex-direction: column;
@@ -825,7 +760,6 @@ p {
     align-items: center;
     gap: 100px;
 }
-
 .customers_box-comments {
     display: flex;
     flex-direction: column;
@@ -833,7 +767,6 @@ p {
     align-items: center;
     gap: 64px;
 }
-
 .customers_box-title {
     display: flex;
     flex-direction: column;
@@ -841,77 +774,64 @@ p {
     align-items: center;
     gap: 17px;
 }
-
 .customers_box-comments-first-one-name {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
-
 .customers_box-comments-first {
     display: flex;
     align-items: flex-start;
     gap: 22px;
 }
-
 .customers_box-comments-second {
     display: flex;
     align-items: flex-start;
     gap: 22px;
 }
-
 .customers_box-comments-first-one {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 11px;
 }
-
 .customers_box-comments-first-one-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 65px;
 }
-
 .customers_box-comments-first-two {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 11px;
 }
-
 .customers_box-comments-second-one {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 11px;
 }
-
 .customers_box-comments-second-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 50px;
 }
-
 .customers_box-comments-second-two {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 11px;
 }
-
 .customers_box-comments-second-one-name {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
-
-/* 8 секція Олександри кінець */
-/*9  sectio Egor start */
 .restaurant-video {
     margin: 0 auto;
     padding: 0;
@@ -920,19 +840,14 @@ p {
     align-items: center;
     background-color: black;
 }
-
 .restaurant-video__content-box {
     padding: 0;
 }
-
 .restaurant-video__video {
     width: 1344px;
     height: 534.1px;
     flex-shrink: 0;
 }
-
-/*9  section Egor end */
-/*10 section Olexandra start */
 .awards {
     background-image: url("../image/img/chapter6/bg-image.jpg");
     background-size: cover;
@@ -941,14 +856,11 @@ p {
     padding-top: 128px;
     padding-bottom: 140px;
 }
-
 .awards_box {
     display: flex;
     align-items: center;
     gap: 111px;
 }
-
-
 .awards_box-left {
     display: flex;
     flex-direction: column;
@@ -956,7 +868,6 @@ p {
     align-items: flex-start;
     gap: 64px;
 }
-
 .awards_box-top-title {
     display: flex;
     flex-direction: column;
@@ -964,56 +875,48 @@ p {
     align-items: flex-start;
     gap: 8px;
 }
-
 .awards_box-top {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 32px;
 }
-
 .awards_box-top-one {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
-
 .awards_box-top-two {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
-
 .awards_box-bottom {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 32px;
 }
-
 .awards_box-bottom-one {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
-
 .awards_box-bottom-two {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
-
 .awards_box-top-one-items {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
 }
-
 .awards_box-top-title-maintext {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -1025,7 +928,6 @@ p {
     letter-spacing: 0.92px;
     text-transform: capitalize;
 }
-
 .awards_box-top-title-text {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -1037,7 +939,6 @@ p {
     letter-spacing: 1.92px;
     text-transform: capitalize;
 }
-
 .awards_box-title {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -1050,7 +951,6 @@ p {
     text-transform: capitalize;
     width: 190px;
 }
-
 .awards_box-text {
     color: var(--AAAAAA, #AAA);
     font-family: 'Open Sans';
@@ -1061,7 +961,6 @@ p {
     letter-spacing: 0.64px;
     width: 190px;
 }
-
 .awards_box-image {
     width: 389.2px;
     height: 483.7px;
@@ -1073,15 +972,11 @@ p {
     background-size: 338.1px 483.7px;
     background-position: right;
 }
-
 .g-svg {
     fill: var(--FAFAFA, #FAFAFA);
     width: 252px;
     height: 265px;
 }
-
-/*10 section Olexandra end */
-/* 11 section Egor start */
 .restaurant-blog {
     height: 971.6px;
     margin: 0 auto;
@@ -1092,7 +987,6 @@ p {
     background-size: 102.2px 102.2px;
     background-position: right 64px bottom 86.1px;
 }
-
 .restaurant-blog__content-box {
     display: flex;
     flex-direction: column;
@@ -1100,7 +994,6 @@ p {
     align-items: center;
     gap: 44.8px;
 }
-
 .restaurant-blog__text-box {
     display: flex;
     flex-direction: column;
@@ -1108,7 +1001,6 @@ p {
     align-items: center;
     gap: 5.6px;
 }
-
 .restaurant-blog__title-top {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -1120,11 +1012,9 @@ p {
     letter-spacing: 0.92px;
     text-transform: capitalize;
 }
-
 .restaurant-blog__svg-image {
     fill: var(--DCCA87, #DCCA87);
 }
-
 .restaurant-blog__title {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -1136,40 +1026,34 @@ p {
     letter-spacing: 1.344px;
     text-transform: capitalize;
 }
-
 .restaurant-blog__main-content {
     display: flex;
     align-items: flex-start;
     gap: 22.4px;
 }
-
 .restaurant-blog__article-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 16.8px;
 }
-
 .restaurant-blog__article-img {
     width: 288.4px;
     height: 301px;
     flex-shrink: 0;
 }
-
 .restaurant-blog__article-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 22.4px;
 }
-
 .restaurant-blog__top-box-text {
     width: 288.4px;
     margin: 0;
     display: flex;
     justify-content: space-between;
 }
-
 .restaurant-blog__date {
     color: var(--FAFAFA, #FAFAFA);
     font-family: Open Sans;
@@ -1179,7 +1063,6 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .restaurant-blog__author {
     color: var(--FAFAFA, #FAFAFA);
     font-family: Open Sans;
@@ -1190,7 +1073,6 @@ p {
     letter-spacing: 0.448px;
 
 }
-
 .restaurant-blog__link-title {
     width: 288.4px;
     color: var(--DCCA87, #DCCA87);
@@ -1204,11 +1086,9 @@ p {
     text-transform: capitalize;
     cursor: pointer;
 }
-
 .restaurant-blog__link-title:hover {
     text-decoration-line: underline;
 }
-
 .restaurant-blog__article-paragraf {
     width: 288.4px;
     color: var(--AAAAAA, #AAA);
@@ -1219,7 +1099,6 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .restaurant-blog__article-link {
     color: var(--DCCA87, #DCCA87);
     font-family: Cormorant Upright;
@@ -1229,11 +1108,9 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .restaurant-blog__article-link:hover {
     font-size: 12px;
 }
-
 .restaurant-blog__button {
     display: flex;
     padding: 5.6px 22.4px;
@@ -1249,13 +1126,9 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .restaurant-blog__button:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
-/* 11 section Egor end */
-/* 12 section Egor start */
 .photo-gallery {
     margin: 0 auto;
     padding: 0;
@@ -1266,7 +1139,6 @@ p {
     position: relative;
     z-index: 1;
 }
-
 .photo-gallery::before {
     content: "";
     width: 100%;
@@ -1279,7 +1151,6 @@ p {
     opacity: 0.5;
     z-index: 2;
 }
-
 .photo-gallery__content-box {
     display: flex;
     align-items: center;
@@ -1289,14 +1160,12 @@ p {
     margin: 0;
     z-index: 3;
 }
-
 .photo-gallery__text-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 16.8px;
 }
-
 .photo-gallery__title-box {
     display: flex;
     flex-direction: column;
@@ -1304,7 +1173,6 @@ p {
     align-items: flex-start;
     gap: 5.6px;
 }
-
 .photo-gallery__title-top {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -1316,11 +1184,9 @@ p {
     letter-spacing: 0.644px;
     text-transform: capitalize;
 }
-
 .photo-gallery__svg-image {
     fill: var(--DCCA87, #DCCA87);
 }
-
 .photo-gallery__title {
     color: var(--DCCA87, #DCCA87);
     text-align: center;
@@ -1333,7 +1199,6 @@ p {
     letter-spacing: 1.344px;
     text-transform: capitalize;
 }
-
 .photo-gallery__paragraf {
     width: 343.7px;
     color: var(--AAAAAA, #AAA);
@@ -1344,7 +1209,6 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .photo-gallery__button {
     display: flex;
     padding: 5.6px 22.4px;
@@ -1361,33 +1225,27 @@ p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .photo-gallery__button:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .photo-gallery__overflow {
     width: 738.5px;
     height: 330px;
     overflow: auto;
     z-index: 3;
 }
-
 .photo-gallery__overflow::-webkit-scrollbar {
     width: 24px;
     height: 10px;
     background-color: #adbbca;
 }
-
 .photo-gallery__overflow::-webkit-scrollbar-thumb {
     background-color: #68726f;
     border-radius: 9px;
 }
-
 .photo-gallery__overflow::-webkit-scrollbar-thumb:hover {
     background-color: #DCCA87;
 }
-
 .photo-gallery__box-imeges {
     margin: 0;
     padding: 0;
@@ -1395,14 +1253,12 @@ p {
     align-items: center;
     gap: 22.4px;
 }
-
 .photo-gallery__img {
     width: 210.7px;
     height: 312.9px;
     border: 0.7px solid var(--DCCA87, #DCCA87);
     z-index: auto;
 }
-
 .photo-gallery__link-img {
     width: 210.7px;
     height: 312.9px;
@@ -1411,7 +1267,6 @@ p {
     align-items: center;
     position: relative;
 }
-
 .photo-gallery__link-img:hover::before {
     content: "";
     position: absolute;
@@ -1424,9 +1279,6 @@ p {
     background-repeat: no-repeat, no-repeat;
     z-index: 2;
 }
-
-/* 12 section Egor end */
-/* footer */
 .footer-box {
     display: flex;
     flex-direction: column;
@@ -1435,19 +1287,16 @@ p {
     text-align: center;
     padding-bottom: 100.8px;
 }
-
 .footer-information-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .footer-contact-box {
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
 }
-
 .footer-contact-box__subtitle {
     color: var(--F5EFDB);
     font-family: 'Cormorant Upright', serif;
@@ -1458,7 +1307,6 @@ p {
     text-transform: capitalize;
     margin-bottom: 16.8px;
 }
-
 .footer-information-box__address-content {
     color: var(--AAAAAA);
     font-size: 11px;
@@ -1467,7 +1315,6 @@ p {
     letter-spacing: 0.45px;
     margin: 0;
 }
-
 .footer-contact-box__link {
     color: var(--AAAAAA);
     font-size: 11px;
@@ -1475,16 +1322,13 @@ p {
     line-height: 19px;
     letter-spacing: 0.45px;
 }
-
 .footer-contact-box__link:first-child {
     margin: 5px;
 }
-
 .footer-box-logo__link__img {
     margin-bottom: 22px;
     width: 202.3px;
 }
-
 .social-media-box {
     width: 306px;
     display: flex;
@@ -1492,7 +1336,6 @@ p {
     font-family: 'Open Sans', sans-serif;
     align-items: center;
 }
-
 .social-media-box__text {
     color: var(--FFFFFF);
     font-size: 11px;
@@ -1501,27 +1344,22 @@ p {
     letter-spacing: 0.45px;
     margin: 0;
 }
-
 .social-media-box__svg {
     margin: 11px 0;
 }
-
 .social-media-box__icons-item {
     fill: #FFF;
 }
-
 .social-media-box__icons-list {
     display: flex;
     gap: 11px;
 }
-
 .working-hours-box {
     font-family: 'Cormorant Upright', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .working-hours-box__title {
     color: var(--F5EFDB);
     font-size: 22px;
@@ -1531,22 +1369,18 @@ p {
     text-transform: capitalize;
     margin-bottom: 17px;
 }
-
 .working-hours-box__text {
     width: 121px;
     margin: 0;
 }
-
 .working-hours-box__text:first-child {
     margin-bottom: 5px;
 }
-
 .footer-date-box {
     display: flex;
     flex-direction: column;
 
 }
-
 .footer-date-box__text {
     margin: 0;
     color: var(--AAAAAA);
@@ -1558,53 +1392,39 @@ p {
     letter-spacing: 0.45px;
     padding-left: 53px;
 }
-
 .footer {
     background-image: url(../image/img/footer/bg-image.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100% 585.9px;
 }
-
-/* footer */
-
-/* over hover */
 .email-input-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .reservation__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .information-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .restaurant-information-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .reservation__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .social-media-box__icons-item:hover {
     fill: var(--DCCA87);
 }
-
 .menu__link:hover {
     color: var(--DCCA87);
 }
-
 .box-login__link:hover {
     color: var(--DCCA87);
 }
-
 .footer-contact-box__link:hover {
     color: var(--DCCA87);
 }
-
 .footer-information-box__address-content:hover {
     color: var(--DCCA87);
 }
