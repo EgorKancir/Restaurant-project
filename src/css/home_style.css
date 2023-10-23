@@ -407,6 +407,8 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 630px;
+    padding-bottom: 183px;
 }
 .menubox_links-item {
     color: var(--FFFFFF);
@@ -423,12 +425,15 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 .menubox_links-item:hover {
     text-decoration-line: underline;
 }
+.menubox_all {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
 .menubox_links {
     display: flex;
     flex-direction: column;
     gap: 45px;
-    padding-top: 205px;
-    padding-bottom: 183px;
 }
 .menubox-img {
     padding-top: 15px;
