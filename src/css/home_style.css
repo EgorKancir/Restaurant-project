@@ -1314,6 +1314,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19px;
     letter-spacing: 0.45px;
     margin: 0;
+    cursor: pointer;
 }
 .footer-contact-box__link {
     color: var(--AAAAAA);
