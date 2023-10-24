@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .rocks {
     height: 730px;
-    background-image: url("../images/img/chapter2/scroll.png"), url("../images/img/chapter2/bar.png"), url("../images/img/chapter2/bg-image.jpg");
+    background-image: url("../images/img/chapter2/scroll.png"), url("../images/img/chapter2/bar.jpg"), url("../images/img/chapter2/bg-image.jpg");
     background-size: auto, 443px 550px, cover;
     background-repeat: no-repeat;
     background-position: 650px 590px, center, center;
