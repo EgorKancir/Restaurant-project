@@ -130,8 +130,8 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-image: url(../image/svg/logo.svg);
     background-repeat: no-repeat;
     background-size: 102.2px;
-    background-position: 1240px 360px;
-    padding: 106.4px 165.2px;
+    background-position: bottom right;
+    margin: 106.4px 165.2px;
 }
 /* maps */
 /* form */
