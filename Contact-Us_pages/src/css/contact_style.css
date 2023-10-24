@@ -1,9 +1,13 @@
 .body{
-    background-color: #0c0c0c;
-    height: 100%;
+    background-color: #0C0B08;
+    background-image: url("../image/svg/line_left.svg"), url("../image/svg/line_right.svg");
+    background-size: 1125.5335px 1855.7px, 1125.5335px 1855.7px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 777px left 0px, top 777px right 0px;
+    height: 2632.7px;
     margin: 0;
     padding: 0;
-}
+} 
 .wrapper{
     min-height: 100%;
     display: flex;
