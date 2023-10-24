@@ -131,7 +131,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-repeat: no-repeat;
     background-size: 102.2px;
     background-position: bottom right;
-    margin: 106.4px 165.2px;
+    padding: 5px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 106.4px;
+    margin-top: 106.4px;
 }
 /* maps */
 /* form */
