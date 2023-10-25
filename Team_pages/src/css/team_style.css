@@ -1,5 +1,12 @@
 .body{
     background-color: #0C0B08;
+    background-image: url("../image/svg/line_left.svg"), url("../image/svg/line_right.svg");
+    background-size: 1125.5335px 2916.2px, 1125.5335px 2916.2px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 777px left 0px, top 777px right 0px;
+    height: 3693.2px;
+    margin: 0;
+    padding: 0;
 } 
 .main{
     flex: 1 1 auto;
