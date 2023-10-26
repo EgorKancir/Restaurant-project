@@ -1,0 +1,36 @@
+.chapter1{
+    background-image: url(../image/img/chapter1/bg.jpg);
+    background-size: cover;
+}
+.home-box{
+    color: #FFF;
+    height: 475.3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16.8px;
+    font-family: 'Cormorant Upright', serif;
+}
+.title{
+    color: var(--DCCA87);
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 81.9px;
+    letter-spacing: 2.52px;
+    text-transform: capitalize;
+}
+.home-box__list{
+    display: flex;
+    align-items: center;
+}
+.home-box__list__link{
+    color: var(--FFFFFF);
+    font-size: 16.1px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20.93px;
+    letter-spacing: 0.644px;
+    text-transform: capitalize;
+}
