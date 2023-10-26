@@ -8,14 +8,11 @@
     margin: 0;
     padding: 0;
 }
-
-
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 5px;
 }
-
 :root {
     --FFFFFF: #FFF;
     --DCCA87: #DCCA87;
@@ -24,52 +21,43 @@
     --0C0C0C: #0C0C0C;
     --F5EFDB: #F5EFDB;
 }
-
 a {
     text-decoration: none;
     color: inherit;
 }
-
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
     padding: 0;
 }
-
 .header {
     padding: 35.4px 84px;
     color: var(--FFFFFF);
     background-color: #0C0B08;
 }
-
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .box-logo__link__img {
     width: 139.3px;
     height: 39.9px;
 }
-
 .header-menu__list {
     display: flex;
     align-items: center;
     gap: 22.4px;
 }
-
 .header__box-login {
     display: flex;
     align-items: center;
     gap: 35px;
 }
-
 .menu__link {
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -77,7 +65,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
 }
-
 .box-logo__link {
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -86,15 +73,12 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.56px;
     text-transform: capitalize;
 }
-
 .menu__items:hover {
     color: var(--DCCA87);
 }
-
 .box-login__link:hover {
     color: var(--DCCA87);
 }
-
 .offer {
     background: url("../image/img/chapter1/bgimg-3.jpg");
     background-size: cover;
@@ -103,7 +87,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding-top: 150px;
     padding-bottom: 150px;
 }
-
 .offer-box_title {
     color: var(--DCCA87, #DCCA87);
     font-family: 'Cormorant Upright';
@@ -114,7 +97,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 3.6px;
     text-transform: capitalize;
 }
-
 .offer-box {
     display: flex;
     flex-direction: column;
@@ -122,14 +104,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     gap: 16px;
 }
-
 .offer-box_text {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-
-
 .offer-box_text-item {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -141,7 +120,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.92px;
     text-transform: capitalize;
 }
-
 .serving {
     background-image: url("../image/svg/logo.svg");
     background-size: 102px 102px;
@@ -150,7 +128,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding-top: 196px;
     padding-bottom: 106px;
 }
-
 .serving-box {
     display: flex;
     flex-direction: column;
@@ -158,7 +135,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     gap: 28px;
 }
-
 .serving-box_title {
     display: flex;
     flex-direction: column;
@@ -166,13 +142,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     gap: 5px;
 }
-
 .serving-box_buttons {
     display: flex;
     align-items: flex-start;
     gap: 28px;
 }
-
 .serving-box_title-text {
     color: var(--FFFFFF, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -185,7 +159,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.92px;
     text-transform: capitalize;
 }
-
 .serving-box_title-item {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -199,7 +172,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     width: 800px;
 }
-
 .serving-box-text {
     color: var(--AAAAAA, #AAA);
     font-family: 'Open Sans';
@@ -211,7 +183,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.64px;
     width: 620px;
 }
-
 .serving-box_buttons_item-one {
     color: var(--0C0C0C);
     text-align: center;
@@ -225,11 +196,9 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid #DCCA87;
     background: #DCCA87;
 }
-
 .serving-box_buttons_item-one:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .serving-box_buttons_item-two {
     color: var(--FFFFFF);
     text-align: center;
@@ -243,13 +212,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid #DCCA87;
     background: inherit;
 }
-
 .serving-box_buttons_item-two:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
     background: #DCCA87;
     color: var(--0C0C0C);
 }
-
 .menubox {
     background-image:  url("../image/img/chapter3/glass.jpg");
     background-size:  cover;
@@ -259,7 +226,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding-top: 182px;
     padding-bottom: 183px;
 }
-
 .menubox_links-item {
     color: var(--FFFFFF);
     font-variant-numeric: lining-nums tabular-nums;
@@ -272,18 +238,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     text-decoration: none;
 }
-
 .menubox_links-item:hover {
     text-decoration-line: underline;
 }
-
-
 .menubox_links {
     display: flex;
     flex-direction: column;
     gap: 45px;
 }
-
 .chapter4 {
     background-color: var(--0C0C0C);
     background-image: url("../image/svg/logo.svg");
@@ -293,7 +255,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding-top: 106px;
     padding-bottom: 106px;
 }
-
 .reservation-box,
 .email-box {
     text-align: center;
@@ -312,12 +273,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-family: 'Cormorant Upright', serif;
     margin-bottom: 108.5px;
 }
-
 .reservation-info-box {
     text-align: center;
     gap: 5.6px;
 }
-
 .reservation-info-box__subtitle,
 .email-info-box__subtitle {
     color: var(--FFFFFF);
@@ -329,7 +288,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     margin: 0;
 }
-
 .reservation-info-box__title,
 .email-info-box__title {
     color: #DCCA87;
@@ -342,14 +300,12 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     margin: 0;
 }
-
 .reservation-select-box__list {
     display: flex;
     align-items: center;
     gap: 22.4px;
     margin: 0;
 }
-
 .reservation-select-box__select {
     padding: 11.2px;
     width: 288.4px;
@@ -367,7 +323,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid #F5EFDB;
     cursor: pointer;
 }
-
 .reservation__link,
 .email-input-box__link {
     color: var(--0C0C0C);
@@ -379,13 +334,9 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid #DCCA87;
     background: #DCCA87;
 }
-
-
 .reservation__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
-
 .hours {
     background-image: url("../image/img/chapter5/bg-img2.jpg");
     background-size: cover;
@@ -394,7 +345,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding-top: 231px;
     padding-bottom: 231px;
 }
-
 .hours_box-text {
     display: flex;
     flex-direction: column;
@@ -402,7 +352,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
     gap: 22px;
 }
-
 .hours_box-text-title {
     color: var(--DCCA87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
@@ -414,7 +363,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 3.84px;
     text-transform: capitalize;
 }
-
 .hours_box-text-item {
     color: #FFF;
     font-variant-numeric: lining-nums tabular-nums;
@@ -426,17 +374,13 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 1.28px;
     text-transform: capitalize;
 }
-
-
 .email-info-box__svg {
     margin: 5.6px 0;
     padding: 0;
 }
-
 .email-section {
     margin-top: 87px;
 }
-
 .email-info-box__text {
     color: var(--FFFFFF);
     text-align: center;
@@ -448,7 +392,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
     margin-top: 24px;
 }
-
 .email-input-box__input {
     width: 557.2px;
     height: 42px;
@@ -463,20 +406,16 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid var(--F5EFDB);
     padding: 11.2px 13.3px;
 }
-
 .email-box {
     margin-bottom: -45px;
 }
-
 .email-section {
     margin-bottom: 55.3px;
 }
-
 .email-info-box__svg {
     margin: 5.6px 0;
     padding: 0;
 }
-
 .email-info-box__text {
     color: var(--FFFFFF);
     text-align: center;
@@ -488,7 +427,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
     margin-top: 24px;
 }
-
 .email-input-box__input {
     width: 557.2px;
     height: 42px;
@@ -503,21 +441,15 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     border: 0.7px solid var(--F5EFDB);
     padding: 11.2px 13.3px;
 }
-
-
 .email-box {
     margin-bottom: -45px;
 }
-
 .email-section {
     margin-bottom: 55.3px;
 }
-
 .email-input-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
-
 .email-inscriptions {
     display: flex;
     justify-content: end;
@@ -527,7 +459,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-family: 'Cormorant Upright', serif;
     text-align: right;
 }
-
 .inscriptions-box__text {
     color: var(--F5EFDB);
     font-variant-numeric: lining-nums tabular-nums;
@@ -537,7 +468,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.448px;
     text-transform: capitalize;
 }
-
 .inscriptions-box__item__text {
     color: var(--DCCA87);
     font-size: 11.2px;
@@ -546,11 +476,9 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.448px;
     text-transform: uppercase;
 }
-
 .inscriptions-box__svg {
     width: 42.7px;
 }
-
 .footer-box {
     display: flex;
     flex-direction: column;
@@ -559,19 +487,16 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-align: center;
     padding-bottom: 100.8px;
 }
-
 .footer-information-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .footer-contact-box {
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
 }
-
 .footer-contact-box__subtitle {
     color: var(--F5EFDB);
     font-family: 'Cormorant Upright', serif;
@@ -582,7 +507,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     margin-bottom: 16.8px;
 }
-
 .footer-information-box__address-content {
     color: var(--AAAAAA);
     font-size: 11px;
@@ -592,7 +516,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
     cursor: pointer;
 }
-
 .footer-contact-box__link {
     color: var(--AAAAAA);
     font-size: 11px;
@@ -600,16 +523,13 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19px;
     letter-spacing: 0.45px;
 }
-
 .footer-contact-box__link:first-child {
     margin: 5px;
 }
-
 .footer-box-logo__link__img {
     margin-bottom: 22px;
     width: 202.3px;
 }
-
 .social-media-box {
     width: 306px;
     display: flex;
@@ -617,7 +537,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-family: 'Open Sans', sans-serif;
     align-items: center;
 }
-
 .social-media-box__text {
     color: var(--FFFFFF);
     font-size: 11px;
@@ -626,27 +545,22 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.45px;
     margin: 0;
 }
-
 .social-media-box__svg {
     margin: 11px 0;
 }
-
 .social-media-box__icons-item {
     fill: #FFF;
 }
-
 .social-media-box__icons-list {
     display: flex;
     gap: 11px;
 }
-
 .working-hours-box {
     font-family: 'Cormorant Upright', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .working-hours-box__title {
     color: var(--F5EFDB);
     font-size: 22px;
@@ -656,22 +570,18 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
     margin-bottom: 17px;
 }
-
 .working-hours-box__text {
     width: 121px;
     margin: 0;
 }
-
 .working-hours-box__text:first-child {
     margin-bottom: 5px;
 }
-
 .footer-date-box {
     display: flex;
     flex-direction: column;
 
 }
-
 .footer-date-box__text {
     margin: 0;
     color: var(--AAAAAA);
@@ -683,67 +593,53 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.45px;
     padding-left: 53px;
 }
-
 .footer {
     background-image: url("../image/img/footer/bg-image.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100% 585.9px;
 }
-
 .footer-section {
     background-image: url("../image/svg/logo.svg");
     background-position: 1175px 1px  ;
     background-repeat: no-repeat;
     background-size: 102px 102px;
 }
-
 .email-input-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .reservation__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .information-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .restaurant-information-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .reservation__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
-
 .social-media-box__icons-item:hover {
     fill: var(--DCCA87);
 }
-
 .menu__link:hover {
     color: var(--DCCA87);
 }
-
 .box-login__link:hover {
     color: var(--DCCA87);
 }
-
 .footer-contact-box__link:hover {
     color: var(--DCCA87);
 }
-
 .footer-information-box__address-content:hover {
     color: var(--DCCA87);
 }
-
 .footer__inscriptions-box__list {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
 .offer-box_text-item:hover{
     color: var(--DCCA87);
     text-shadow: 0 0 20px #DCCA87;
