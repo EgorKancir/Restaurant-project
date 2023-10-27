@@ -10,11 +10,11 @@
 }
 :root {
     --ffffff: #FFF;
-    --Dcca87: #DCCA87;
-    --FAFAFA: #FAFAFA;
-    --AAAAAA: #AAA;
-    --0C0C0C: #0c0c0c;
-    --F5EFDB: #F5EFDB;
+    --dcca87: #DCCA87;
+    --fafafa: #FAFAFA;
+    --aaaaaa: #AAA;
+    --0c0c0c: #0c0c0c;
+    --f5efdb: #F5EFDB;
 }
 .container {
     width: 1200px;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 .header {
     padding: 22.4px 84px;
     margin-bottom: 33.6px;
-    color: var(--FFFFFF);
+    color: var(--ffffff);
 }
 .header__inner {
     display: flex;
@@ -92,10 +92,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 .information-box {
     margin-top: 89.25px;
     width: 318.5px;
-    color: var(--FFFFFF);
+    color: var(--ffffff);
 }
 .information-box__subtitle {
-    color: var(--FFFFFF);
+    color: var(--ffffff);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 16.1px;
     font-weight: 700;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 5.6px 0;
 }
 .information-box__title {
-    color: var(--DCCA87);
+    color: var(--dcca87);
     font-size: 63px;
     font-weight: 700;
     line-height: 81.9px;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .information-box__text {
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
     font-weight: 400;
@@ -125,9 +125,9 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 22.4px 0;
 }
 .information-box__link {
-    background-color: var(--DCCA87);
+    background-color: var(--dcca87);
     padding: 5.6px 22.4px;
-    color: var(--0C0C0C);
+    color: var(--0c0c0c);
 }
 .image-box__image {
     width: 433.3px;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-family: 'Cormorant Upright', serif;
 }
 .inscriptions-box__text {
-    color: var(--F5EFDB);
+    color: var(--f5efdb);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 11.2px;
     font-weight: 600;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
 }
 .inscriptions-box__item__text {
-    color: var(--DCCA87);
+    color: var(--dcca87);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-align: right;
 }
 .restaurant-information-box__title {
-    color: var(--DCCA87);
+    color: var(--dcca87);
     font-size: 44.8px;
     font-weight: 600;
     line-height: 58.24px;
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
 }
 .restaurant-information-box__text {
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
     font-weight: 400;
@@ -205,13 +205,13 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 22.4px 0;
 }
 .restaurant-information-box__link {
-    color: var(--0C0C0C);
+    color: var(--0c0c0c);
     font-size: 11.2px;
     font-style: normal;
     font-weight: 700;
     line-height: 19.6px;
     letter-spacing: 0.448px;
-    background-color: var(--DCCA87);
+    background-color: var(--dcca87);
     padding: 8px 32px;
 }
 .restaurant-information-box__decoradion-image {
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     justify-content: center;
     align-items: center;
     border: 0.7px solid rgba(220, 202, 135, 0.20);
-    background: var(--0C0C0C);
+    background: var(--0c0c0c);
     box-shadow: 15.4px 21px 66.5px 0.7px rgba(0, 0, 0, 0.70);
     gap: 44.8px;
     font-family: 'Cormorant Upright', serif;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .reservation-info-box__subtitle,
 .email-info-box__subtitle {
-    color: var(--FFFFFF);
+    color: var(--ffffff);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 16.1px;
     font-weight: 700;
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 11.2px;
     width: 288.4px;
     height: 42px;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 11.2px;
@@ -281,14 +281,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background: var(--0C0C0C);
+    background: var(--0c0c0c);
     text-align: left;
     border: 0.7px solid #F5EFDB;
     cursor: pointer;
 }
 .reservation__link,
 .email-input-box__link {
-    color: var(--0C0C0C);
+    color: var(--0c0c0c);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 0;
 }
 .email-info-box__text {
-    color: var(--FFFFFF);
+    color: var(--ffffff);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -316,14 +316,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 557.2px;
     height: 42px;
     margin-right: 22.4px;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background-color: var(--0C0C0C);
-    border: 0.7px solid var(--F5EFDB);
+    background-color: var(--0c0c0c);
+    border: 0.7px solid var(--f5efdb);
     padding: 11.2px 13.3px;
 }
 .email-box {
@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 0;
 }
 .email-info-box__text {
-    color: var(--FFFFFF);
+    color: var(--ffffff);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -351,14 +351,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 557.2px;
     height: 42px;
     margin-right: 22.4px;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background-color: var(--0C0C0C);
-    border: 0.7px solid var(--F5EFDB);
+    background-color: var(--0c0c0c);
+    border: 0.7px solid var(--f5efdb);
     padding: 11.2px 13.3px;
 }
 .footer__inscriptions-box__list {
@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-align: right;
 }
 .inscriptions-box__text {
-    color: var(--F5EFDB);
+    color: var(--f5efdb);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 11.2px;
     font-weight: 600;
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .inscriptions-box__item__text {
-    color: var(--DCCA87);
+    color: var(--dcca87);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding-bottom: 183px;
 }
 .menubox_links-item {
-    color: var(--FFFFFF);
+    color: var(--ffffff);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 44px;
@@ -459,7 +459,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 5.6px;
 }
 .menu-special__title-top {
-    color: var(--FFFFFF, #FFF);
+    color: var(--ffffff, #FFF);
     font-family: Cormorant Upright;
     font-size: 16.1px;
     font-style: normal;
@@ -469,10 +469,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .menu-special__svg-image {
-    fill: var(--DCCA87, #DCCA87);
+    fill: var(--dcca87, #DCCA87);
 }
 .menu-special__title {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     text-align: center;
     font-family: Cormorant Upright;
     font-size: 44.8px;
@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 33.6px;
 }
 .menu-special__title-column {
-    color: var(--FFFFFF, #FFF);
+    color: var(--ffffff, #FFF);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .menu-special__product-name {
     width: 192px;
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
     font-size: 16.1px;
@@ -540,10 +540,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 .menu-special__product-line {
     width: 83.3px;
     height: 0.7px;
-    background: var(--FAFAFA, #FAFAFA);
+    background: var(--fafafa, #FAFAFA);
 }
 .menu-special__product-price {
-    color: var(--FFFFFF, #FFF);
+    color: var(--ffffff, #FFF);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
@@ -555,7 +555,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .menu-special__product-characteristics {
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     text-align: center;
     font-family: Open Sans;
     font-size: 11.2px;
@@ -585,7 +585,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--DCCA87, #DCCA87);
+    background: var(--dcca87, #DCCA87);
     color: var(--0C0C0C, #0C0C0C);
     font-family: Cormorant Upright;
     font-size: 11.2px;
@@ -617,7 +617,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 44px;
 }
 .chef_box-right-title {
-    color: var(--FFFFFF, #FFF);
+    color: var(--ffffff, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 16px;
@@ -628,7 +628,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .chef_box-right-titletwo {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 42px;
@@ -639,7 +639,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .chef_box-right-text {
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     font-family: 'Open Sans';
     font-size: 16px;
     font-style: italic;
@@ -653,7 +653,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     height: 58px;
 }
 .chef_box-right-name {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 22px;
@@ -664,7 +664,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .chef_box-right-position {
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     font-family: 'Open Sans';
     font-size: 11px;
     font-style: normal;
@@ -705,7 +705,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding-bottom: 119px;
 }
 .customers_box-title_item-one {
-    color: var(--FFFFFF, #FFF);
+    color: var(--ffffff, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 23px;
@@ -716,7 +716,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .customers_box-title_item-two {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 44px;
@@ -727,7 +727,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .customers_box-text-one {
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     font-family: 'Open Sans';
     font-size: 13px;
     font-style: italic;
@@ -736,7 +736,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.64px;
 }
 .customers_box-comments-title {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 22px;
@@ -747,7 +747,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .customers_box-text-two {
-    color: var(--F5EFDB, #F5EFDB);
+    color: var(--f5efdb, #F5EFDB);
     font-family: 'Open Sans';
     font-size: 13px;
     font-style: normal;
@@ -920,7 +920,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 8px;
 }
 .awards_box-top-title-maintext {
-    color: var(--FFFFFF, #FFF);
+    color: var(--ffffff, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 18px;
@@ -931,7 +931,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .awards_box-top-title-text {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 44px;
@@ -942,7 +942,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .awards_box-title {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 22px;
@@ -954,7 +954,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 190px;
 }
 .awards_box-text {
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     font-family: 'Open Sans';
     font-size: 14px;
     font-style: normal;
@@ -975,7 +975,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-position: right;
 }
 .g-svg {
-    fill: var(--FAFAFA, #FAFAFA);
+    fill: var(--fafafa, #FAFAFA);
     width: 252px;
     height: 265px;
 }
@@ -1004,7 +1004,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 5.6px;
 }
 .restaurant-blog__title-top {
-    color: var(--FFFFFF, #FFF);
+    color: var(--ffffff, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
     font-size: 16.1px;
@@ -1015,10 +1015,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .restaurant-blog__svg-image {
-    fill: var(--DCCA87, #DCCA87);
+    fill: var(--dcca87, #DCCA87);
 }
 .restaurant-blog__title {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
     font-size: 44.8px;
@@ -1057,7 +1057,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     justify-content: space-between;
 }
 .restaurant-blog__date {
-    color: var(--FAFAFA, #FAFAFA);
+    color: var(--fafafa, #FAFAFA);
     font-family: Open Sans;
     font-size: 11.2px;
     font-style: normal;
@@ -1066,7 +1066,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.448px;
 }
 .restaurant-blog__author {
-    color: var(--FAFAFA, #FAFAFA);
+    color: var(--fafafa, #FAFAFA);
     font-family: Open Sans;
     font-size: 11.2px;
     font-style: normal;
@@ -1076,7 +1076,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .restaurant-blog__link-title {
     width: 288.4px;
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
     font-size: 22.4px;
@@ -1092,7 +1092,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .restaurant-blog__article-paragraf {
     width: 288.4px;
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     font-family: Open Sans;
     font-size: 11.2px;
     font-style: normal;
@@ -1101,7 +1101,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     letter-spacing: 0.448px;
 }
 .restaurant-blog__article-link {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-family: Cormorant Upright;
     font-size: 11.2px;
     font-style: normal;
@@ -1118,7 +1118,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--DCCA87, #DCCA87);
+    background: var(--dcca87, #DCCA87);
     color: var(--0C0C0C, #0C0C0C);
     font-family: Cormorant Upright;
     font-size: 11.2px;
@@ -1175,7 +1175,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 5.6px;
 }
 .photo-gallery__title-top {
-    color: var(--FFFFFF, #FFF);
+    color: var(--ffffff, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
     font-size: 16.1px;
@@ -1186,10 +1186,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .photo-gallery__svg-image {
-    fill: var(--DCCA87, #DCCA87);
+    fill: var(--dcca87, #DCCA87);
 }
 .photo-gallery__title {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
@@ -1202,7 +1202,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .photo-gallery__paragraf {
     width: 343.7px;
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     font-family: Open Sans;
     font-size: 11.2px;
     font-style: normal;
@@ -1216,9 +1216,9 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     justify-content: center;
     align-items: center;
     gap: 7px;
-    border: 0.7px solid var(--DCCA87, #DCCA87);
-    background: var(--DCCA87, #DCCA87);
-    color: var(--0C0C0C, #0C0C0C);
+    border: 0.7px solid var(--dcca87, #DCCA87);
+    background: var(--dcca87, #DCCA87);
+    color: var(--0c0c0c, #0C0C0C);
     font-family: Cormorant Upright;
     font-size: 11.2px;
     font-style: normal;
@@ -1257,7 +1257,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 .photo-gallery__img {
     width: 210.7px;
     height: 312.9px;
-    border: 0.7px solid var(--DCCA87, #DCCA87);
+    border: 0.7px solid var(--dcca87, #DCCA87);
     z-index: auto;
 }
 .photo-gallery__link-img {
@@ -1299,7 +1299,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-family: 'Open Sans', sans-serif;
 }
 .footer-contact-box__subtitle {
-    color: var(--F5EFDB);
+    color: var(--f5efdb);
     font-family: 'Cormorant Upright', serif;
     font-size: 22px;
     font-weight: 400;
@@ -1309,7 +1309,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin-bottom: 16.8px;
 }
 .footer-information-box__address-content {
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
@@ -1318,7 +1318,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     cursor: pointer;
 }
 .footer-contact-box__link {
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
@@ -1339,7 +1339,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
 }
 .social-media-box__text {
-    color: var(--FFFFFF);
+    color: var(--ffffff);
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
@@ -1363,7 +1363,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
 }
 .working-hours-box__title {
-    color: var(--F5EFDB);
+    color: var(--f5efdb);
     font-size: 22px;
     font-weight: 400;
     line-height: 29px;
@@ -1384,7 +1384,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .footer-date-box__text {
     margin: 0;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
@@ -1415,17 +1415,17 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
 .social-media-box__icons-item:hover {
-    fill: var(--DCCA87);
+    fill: var(--dcca87);
 }
 .menu__link:hover {
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
 .box-login__link:hover {
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
 .footer-contact-box__link:hover {
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
 .footer-information-box__address-content:hover {
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
