@@ -9,12 +9,12 @@
     padding: 0;
 }
 :root {
-    --FFFFFF: #FFF;
-    --DCCA87: #DCCA87;
-    --FAFAFA: #FAFAFA;
-    --AAAAAA: #AAA;
-    --0C0C0C: #0c0c0c;
-    --F5EFDB: #F5EFDB;
+    --fff: #FFF;
+    --dcca87: #DCCA87;
+    --fafafa: #FAFAFA;
+    --aaaaaa: #AAA;
+    --0c0c0c: #0c0c0c;
+    --f5efdb: #F5EFDB;
 }
 .container {
     width: 1200px;
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 11.2px;
     width: 288.4px;
     height: 42px;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 11.2px;
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .reservation__link,
 .email-input-box__link {
-    color: var(--0C0C0C);
+    color: var(--0c0c0c);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
@@ -242,14 +242,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 557.2px;
     height: 42px;
     margin-right: 22.4px;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background-color: var(--0C0C0C);
-    border: 0.7px solid var(--F5EFDB);
+    background-color: var(--0c0c0c);
+    border: 0.7px solid var(--f5efdb);
     padding: 11.2px 13.3px;
 }
 .email-box {
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 0;
 }
 .email-info-box__text {
-    color: var(--FFFFFF);
+    color: var(--fff);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -277,14 +277,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 557.2px;
     height: 42px;
     margin-right: 22.4px;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background-color: var(--0C0C0C);
-    border: 0.7px solid var(--F5EFDB);
+    background-color: var(--0c0c0c);
+    border: 0.7px solid var(--f5efdb);
     padding: 11.2px 13.3px;
 }
 .footer__inscriptions-box__list {
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-align: right;
 }
 .inscriptions-box__text {
-    color: var(--F5EFDB);
+    color: var(--f5efdb);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 11.2px;
     font-weight: 600;
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .inscriptions-box__item__text {
-    color: var(--DCCA87);
+    color: var(--dcca87);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 5.6px;
 }
 .we-offer__title-top {
-    color: var(--FFFFFF, #FFF);
+    color: var(--fff, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
     font-size: 16.1px;
@@ -397,11 +397,11 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .we-offer__svg-image {
-    fill: var(--DCCA87, #DCCA87);
+    fill: var(--dcca87, #DCCA87);
 }
 .we-offer__title {
     width: 429.8px;
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
     font-size: 44.8px;
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .we-offer__paragraf {
     width: 366.1px;
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     font-family: Open Sans;
     font-size: 11.2px;
     font-style: normal;
@@ -427,8 +427,8 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--DCCA87, #DCCA87);
-    color: var(--0C0C0C, #0C0C0C);
+    background: var(--dcca87, #DCCA87);
+    color: var(--0c0c0c, #0C0C0C);
     font-family: Cormorant Upright;
     font-size: 11.2px;
     font-style: normal;
