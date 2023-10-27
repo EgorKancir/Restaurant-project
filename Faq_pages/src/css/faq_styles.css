@@ -1,0 +1,514 @@
+body {
+    background-color: #0C0B08;
+    background-image: url("../image/svg/line1.svg"), url("../image/svg/line2.png");
+    background-size: 1125.5335px 2951.2px, 1125.5335px 2951.2px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 575px -290px, -706px 110px;
+    margin: 0;
+    padding: 0;
+    height: 1967px ;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+:root {
+    --fff: #FFF;
+    --dcca87: #DCCA87;
+    --fafafa: #FAFAFA;
+    --aaaaaa: #AAA;
+    --0c0c0c: #0c0c0c;
+    --f5efdb: #F5EFDB;
+}
+h1,h2,h3,h4,h5,h6,li,menu,p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    padding: 35.4px 84px;
+    color: var(--FFFFFF);
+    background-color: #0C0B08;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-logo__link__img {
+    width: 139.3px;
+    height: 39.9px;
+}
+.header-menu__list {
+    display: flex;
+    align-items: center;
+    gap: 22.4px;
+}
+.header__box-login {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.menu__link {
+    font-family: 'Open Sans', sans-serif;
+    color:var(--fff);
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+}
+.box-login__link {
+    color: var(--fff);
+}
+.box-logo__link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.56px;
+    text-transform: capitalize;
+}
+.menu__items:hover {
+    color: var(--dcca87);
+}
+.box-login__link:hover {
+    color: #DCCA87;
+}
+.faq {
+    background: url("../image/img/chapter1/bgimg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.faq-box_title {
+    color: var(--dcca87);
+    font-family: 'Cormorant Upright';
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+}
+.faq-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.faq-box_text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.faq-box_text-item {
+    color: var(--fff);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+.faq-box_text-item:hover {
+    color: #DCCA87;
+    text-shadow: 0 0 20px #DCCA87;
+}
+.questions {
+    padding-top: 106px;
+    padding-bottom: 50px;
+}
+.questions_box {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 22px;
+}
+.questions_box-right_main-box{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    border: 1px solid var(--dcca87);
+    background: #242424;
+}
+.questions_box-right_first-main-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+}
+.questions_box-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+}
+.questions_box-right_main-title {
+    color: var(--dcca87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+.questions_box-right_main-text {
+    color: var(--aaaaaa);
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    width: 586px;
+}
+.questions_box-right_item {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    align-self: stretch;
+    background: #242424;
+}
+.questions_box-title {
+    color: var(--fff);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cormorant Upright';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+.questions_box-title:hover {
+    color: var(--dcca87);
+}
+.questions_box-img {
+    width: 443px;
+    height: 453px;
+}
+.email-info-box__svg {
+    margin: 5.6px 0;
+    padding: 0;
+}
+.email-section {
+    margin-top: 87px;
+}
+.email-info-box__text {
+    color:#FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    margin: 0;
+    margin-top: 24px;
+}
+.email-input-box__input {
+    width: 557.2px;
+    height: 42px;
+    margin-right: 22.4px;
+    color: var(--aaaaaa);
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+    background-color: #0C0C0C;
+    border: 0.7px solid var(--f5efdb);
+    padding: 11.2px 13.3px;
+}
+.email-box {
+    margin-bottom: -45px;
+}
+.email-section {
+    margin-bottom: 55.3px;
+}
+.email-info-box__svg {
+    margin: 5.6px 0;
+    padding: 0;
+}
+.email-info-box__text {
+    color: var(--fff);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    margin: 0;
+    margin-top: 24px;
+}
+.email-input-box__input {
+    width: 557.2px;
+    height: 42px;
+    margin-right: 22.4px;
+    color: var(--aaaaaa);
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+    background-color: var(--0c0c0c);
+    border: 0.7px solid var(--f5efdb);
+    padding: 11.2px 13.3px;
+}
+.email-box {
+    text-align: center;
+    margin: 0 auto;
+    width: 964.8px;
+    height: 326.2px;
+    display: flex;
+    padding: 33.6px 22.4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.7px solid rgba(220, 202, 135, 0.20);
+    background: var(--0c0c0c);
+    box-shadow: 15.4px 21px 66.5px 0.7px rgba(0, 0, 0, 0.70);
+    gap: 44.8px;
+    font-family: 'Cormorant Upright', serif;
+    margin-bottom: 108.5px;
+}
+.email-info-box__subtitle {
+    color: var(--fff);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 16.1px;
+    font-weight: 700;
+    line-height: 20.93px;
+    letter-spacing: 0.644px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.email-info-box__title {
+    color: #DCCA87;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 44.8px;
+    font-weight: 600;
+    line-height: 58.24px;
+    letter-spacing: 1.344px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.email-input-box__link {
+    color: var(--0c0c0c);
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    padding: 5.6px 22.4px;
+    border: 0.7px solid #DCCA87;
+    background: #DCCA87;
+}
+.email-box {
+    margin-bottom: -45px;
+}
+.email-section {
+    margin-bottom: 55.3px;
+}
+
+.email-input-box__link:hover {
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.email-inscriptions {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 504.7px;
+    color: #FFF;
+    font-family: 'Cormorant Upright', serif;
+    text-align: right;
+}
+.inscriptions-box__text {
+    color: var(--f5efdb);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 11.2px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: capitalize;
+}
+.inscriptions-box__item__text {
+    color: var(--dcca87);
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 19.6px;
+    letter-spacing: 0.448px;
+    text-transform: uppercase;
+}
+.inscriptions-box__svg {
+    width: 42.7px;
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 100.8px;
+}
+.footer-information-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-contact-box {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-contact-box__subtitle {
+    color: var(--f5efdb);
+    font-family: 'Cormorant Upright', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.86px;
+    text-transform: capitalize;
+    margin-bottom: 16.8px;
+}
+.footer-information-box__address-content {
+    color: var(--aaaaaa);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.45px;
+    margin: 0;
+    cursor: pointer;
+}
+.footer-contact-box__link {
+    color: var(--aaaaaa);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.45px;
+}
+.footer-contact-box__link:first-child {
+    margin: 5px;
+}
+.footer-box-logo__link__img {
+    margin-bottom: 22px;
+    width: 202.3px;
+}
+.social-media-box {
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+}
+.social-media-box__text {
+    color: var(--fff);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.45px;
+    margin: 0;
+}
+.social-media-box__svg {
+    margin: 11px 0;
+}
+.social-media-box__icons-item {
+    fill: #FFF;
+}
+.social-media-box__icons-list {
+    display: flex;
+    gap: 11px;
+}
+.working-hours-box {
+    font-family: 'Cormorant Upright', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.working-hours-box__title {
+    color: var(--f5efdb);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+.working-hours-box__text {
+    width: 121px;
+    margin: 0;
+}
+.working-hours-box__text:first-child {
+    margin-bottom: 5px;
+}
+.footer-date-box {
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-date-box__text {
+    margin: 0;
+    color: var(--aaaaaa);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.45px;
+    padding-left: 53px;
+}
+.footer {
+    background-image: url("../image/img/footer/bg-image.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 585.9px;
+}
+.footer-section {
+    background-image: url("../image/svg/logo.svg");
+    background-position: 1175px 10px;
+    background-repeat: no-repeat;
+    background-size: 102px 102px;
+}
+.email-input-box__link:hover {
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.information-box__link:hover {
+    box-shadow: 0px 0px 20px 7px #DCCA87;
+}
+.social-media-box__icons-item:hover {
+    fill: var(--dcca87);
+}
+.menu__link:hover {
+    color: var(--dcca87);
+}
+.box-login__link:hover {
+    color: var(--dcca87);
+}
+.footer-contact-box__link:hover {
+    color: var(--dcca87);
+}
+.footer-information-box__address-content:hover {
+    color: var(--dcca87);
+}
+.footer__inscriptions-box__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
