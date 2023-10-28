@@ -12,12 +12,12 @@
     flex: 1 1 auto;
 }
 :root {
-    --FFFFFF: #FFF;
-    --DCCA87: #DCCA87;
-    --FAFAFA: #FAFAFA;
-    --AAAAAA: #AAA;
-    --0C0C0C: #0c0c0c;
-    --F5EFDB: #F5EFDB;
+    --fff: #FFF;
+    --dcca87: #DCCA87;
+    --fafafa: #FAFAFA;
+    --aaaaaa: #AAA;
+    --0c0c0c: #0c0c0c;
+    --f5efdb: #F5EFDB;
 }
 .container {
     width: 1200px;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 .header {
     padding: 22.4px 84px;
     margin-bottom: 33.6px;
-    color: var(--FFFFFF);
+    color: var(--fff);
 }
 .header__inner {
     display: flex;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-family: 'Cormorant Upright', serif;
 }
 .title{
-    color: var(--DCCA87);
+    color: var(--dcca87);
     font-size: 63px;
     font-weight: 700;
     line-height: 81.9px;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
 }
 .home-box__list__link{
-    color: var(--FFFFFF);
+    color: var(--fff);
     font-size: 16.1px;
     font-style: normal;
     font-weight: 700;
@@ -144,10 +144,10 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .team-member__foto {
     width: 287.7px;
-    border: 0.7px solid var(--DCCA87);
+    border: 0.7px solid var(--dcca87);
 }
 .team-member__name-link{
-    color: var(--FFFFFF);
+    color: var(--fff);
     font-family: 'Cormorant Upright', serif;
     font-size: 31.5px;
     font-weight: 600;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .team-member__position-text{
-    color: var(--FFFFFF);
+    color: var(--fff);
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
     font-weight: 400;
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 8px;
 }
 .awards_box-top-title-maintext {
-    color: var(--FFFFFF, #FFF);
+    color: var(--fff, #FFF);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 18px;
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .awards_box-top-title-text {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 44px;
@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .awards_box-title {
-    color: var(--DCCA87, #DCCA87);
+    color: var(--dcca87, #DCCA87);
     font-variant-numeric: lining-nums tabular-nums;
     font-family: 'Cormorant Upright';
     font-size: 22px;
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 190px;
 }
 .awards_box-text {
-    color: var(--AAAAAA, #AAA);
+    color: var(--aaaaaa, #AAA);
     font-family: 'Open Sans';
     font-size: 14px;
     font-style: normal;
@@ -300,7 +300,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     background-position: right;
 }
 .g-svg {
-    fill: var(--FAFAFA, #FAFAFA);
+    fill: var(--fafafa, #FAFAFA);
     width: 252px;
     height: 265px;
 }
@@ -315,14 +315,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     justify-content: center;
     align-items: center;
     border: 0.7px solid rgba(220, 202, 135, 0.20);
-    background: var(--0C0C0C);
+    background: var(--0c0c0c);
     box-shadow: 15.4px 21px 66.5px 0.7px rgba(0, 0, 0, 0.70);
     gap: 44.8px;
     font-family: 'Cormorant Upright', serif;
     margin-bottom: 108.5px;
 }
 .email-info-box__subtitle {
-    color: var(--FFFFFF);
+    color: var(--fff);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 16.1px;
     font-weight: 700;
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin: 0;
 }
 .email-input-box__link {
-    color: var(--0C0C0C);
+    color: var(--0c0c0c);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 0;
 }
 .email-info-box__text {
-    color: var(--FFFFFF);
+    color: var(--fff);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -371,14 +371,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 557.2px;
     height: 42px;
     margin-right: 22.4px;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background-color: var(--0C0C0C);
-    border: 0.7px solid var(--F5EFDB);
+    background-color: var(--0c0c0c);
+    border: 0.7px solid var(--f5efdb);
     padding: 11.2px 13.3px;
 }
 .email-box {
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 0;
 }
 .email-info-box__text {
-    color: var(--FFFFFF);
+    color: var(--fff);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
@@ -406,14 +406,14 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     width: 557.2px;
     height: 42px;
     margin-right: 22.4px;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11.2px;
     font-weight: 600;
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background-color: var(--0C0C0C);
-    border: 0.7px solid var(--F5EFDB);
+    background-color: var(--0c0c0c);
+    border: 0.7px solid var(--f5efdb);
     padding: 11.2px 13.3px;
 }
 .footer__inscriptions-box__list {
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-align: right;
 }
 .inscriptions-box__text {
-    color: var(--F5EFDB);
+    color: var(--f5efdb);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 11.2px;
     font-weight: 600;
@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     text-transform: capitalize;
 }
 .inscriptions-box__item__text {
-    color: var(--DCCA87);
+    color: var(--dcca87);
     font-size: 11.2px;
     font-weight: 700;
     line-height: 19.6px;
@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     font-family: 'Open Sans', sans-serif;
 }
 .footer-contact-box__subtitle {
-    color: var(--F5EFDB);
+    color: var(--f5efdb);
     font-family: 'Cormorant Upright', serif;
     font-size: 22px;
     font-weight: 400;
@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     margin-bottom: 16.8px;
 }
 .footer-information-box__address-content {
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
@@ -498,7 +498,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     cursor: pointer;
 }
 .footer-contact-box__link {
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
 }
 .social-media-box__text {
-    color: var(--FFFFFF);
+    color: var(--fff);
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
@@ -543,7 +543,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     align-items: center;
 }
 .working-hours-box__title {
-    color: var(--F5EFDB);
+    color: var(--f5efdb);
     font-size: 22px;
     font-weight: 400;
     line-height: 29px;
@@ -564,7 +564,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .footer-date-box__text {
     margin: 0;
-    color: var(--AAAAAA);
+    color: var(--aaaaaa);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
@@ -589,27 +589,27 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
 .social-media-box__icons-item:hover {
-    fill: var(--DCCA87);
+    fill: var(--dcca87);
 }
 .menu__link:hover {
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
 .box-login__link:hover {
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
 .footer-contact-box__link:hover {
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
 .footer-information-box__address-content:hover {
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
 .form-box__link:hover {
     box-shadow: 0px 0px 20px 7px #DCCA87;
 }
 .home-box__list__link:hover{
-    color: var(--DCCA87);
+    color: var(--dcca87);
     text-shadow: 0 0 20px #DCCA87;
 }
 .team-member__name-link:hover{
-    color: var(--DCCA87);
+    color: var(--dcca87);
 }
