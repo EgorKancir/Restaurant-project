@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 .header {
     padding: 22.4px 84px;
     margin-bottom: 33.6px;
-    color: var(--FFFFFF);
+    color: var(--fff);
 }
 .header__inner {
     display: flex;
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     transform: rotate(-90deg);
 }
 .rocks_box-title-text {
-    color: var(--FFFFFF, #FFF);
+    color: var(--fff, #FFF);
     font-family: 'Cormorant Upright';
     font-size: 126px;
     font-style: normal;
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     justify-content: center;
     align-items: center;
     border: 0.7px solid rgba(220, 202, 135, 0.20);
-    background: var(--0C0C0C);
+    background: var(--0c0c0c);
     box-shadow: 15.4px 21px 66.5px 0.7px rgba(0, 0, 0, 0.70);
     gap: 44.8px;
     font-family: 'Cormorant Upright', serif;
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
 }
 .reservation-info-box__subtitle,
 .email-info-box__subtitle {
-    color: var(--FFFFFF);
+    color: var(--fff);
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 16.1px;
     font-weight: 700;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     line-height: 19.6px;
     letter-spacing: 0.448px;
     text-transform: capitalize;
-    background: var(--0C0C0C);
+    background: var(--0c0c0c);
     text-align: left;
     border: 0.7px solid #F5EFDB;
     cursor: pointer;
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 0;
 }
 .email-info-box__text {
-    color: var(--FFFFFF);
+    color: var(--fff);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
