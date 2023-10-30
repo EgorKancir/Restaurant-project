@@ -417,7 +417,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     padding: 0;
 }
 .email-info-box__text {
-    color: var(--FFFFFF);
+    color: var(--fff);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 11.2px;
