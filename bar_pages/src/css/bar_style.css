@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/svg/logo.svg"), url("../images/img/chapter4/BG_sq.jpg");
+    background-image: url("../images/svg/logo.svg"), url("../images/img/chapter4/bg_sq.jpg");
     background-repeat: no-repeat, no-repeat;
     background-size: 102.2px 102.2px, 100% 731.5px;
     background-position: top 2.1px left 102.2px, top;
@@ -793,7 +793,7 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     display: flex;
     justify-content: center;
     align-items: start;
-    background-image: url("../images/svg/logo.svg"), url("../images/img/chapter8/BG_sq.jpg");
+    background-image: url("../images/svg/logo.svg"), url("../images/img/chapter8/bg_sq.jpg");
     background-repeat: no-repeat, no-repeat;
     background-size: 102.2px 102.2px, 100% 694.4px;
     background-position: bottom 0px right 147px, top;
