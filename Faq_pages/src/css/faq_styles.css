@@ -198,6 +198,7 @@ ul {
     line-height: 130%;
     letter-spacing: 0.92px;
     text-transform: capitalize;
+    cursor: pointer;
 }
 .questions_box-title:hover {
     color: var(--dcca87);
