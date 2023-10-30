@@ -247,7 +247,6 @@ h1, h2, h3, h4, h5, h6, li, menu, p {
     gap: 45px;
 }
 .chapter4 {
-    background-color: var(--0c0c0c);
     background-image: url("../image/svg/logo.svg");
     background-size: 102px 102px;
     background-repeat: no-repeat;
